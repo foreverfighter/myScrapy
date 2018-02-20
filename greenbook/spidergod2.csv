@@ -1,9 +1,0 @@
-HREF,FAILMSG
-http://www.thegreenbook.com/products/search/packaging-guides/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
-http://www.thegreenbook.com/products/search/industrial-automation-control-guides/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
-http://www.thegreenbook.com/products/search/oil-gas-guides/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
-http://www.thegreenbook.com/products/search/rubber-plastic-guides/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
-http://www.thegreenbook.com/products/search/marine-shipbuilding-guides/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
-http://www.thegreenbook.com/products/search/electronic-guides/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
-http://www.thegreenbook.com/products/search/chemical-guides/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
-http://www.thegreenbook.com/products/search/aviation-guides/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
