@@ -1,0 +1,94 @@
+2017-05-29 13:13:42 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: redmart)
+2017-05-29 13:13:42 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'redmart', 'FEED_FORMAT': 'csv', 'FEED_URI': 'spidergod3.csv', 'LOG_FILE': 'redmart6.txt', 'NEWSPIDER_MODULE': 'redmart.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['redmart.spiders']}
+2017-05-29 13:13:42 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2017-05-29 13:13:42 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-05-29 13:13:42 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-05-29 13:13:42 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-05-29 13:13:42 [scrapy.core.engine] INFO: Spider opened
+2017-05-29 13:13:42 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-05-29 13:13:42 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-05-29 13:13:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://redmart.com/robots.txt> (referer: None)
+2017-05-29 13:13:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://redmart.com/fresh-produce> (referer: None)
+2017-05-29 13:13:44 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://api.redmart.com/robots.txt> (referer: None)
+2017-05-29 13:13:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1> (referer: https://redmart.com/fresh-produce)
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'Givvo Puay Leng Spinach', 'DESC': 'Product of China. A leafy veg popular in Asian cuisine.', 'IMGURL': '/i/m/88850033251430172_1441196624786.jpg', 'PRICE': 1.65, 'SPRICE': 0.0, 'MEASURE': '250 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'Givvo French Beans', 'DESC': 'Product of Malaysia. French beans or fine beans, is a variety of green bean that is longer, thinner, crisp, and tender. Green beans are often steamed, boiled, stir-fried, or baked in casseroles.', 'IMGURL': '/i/m/88850033265776_1433995040954.jpg', 'PRICE': 1.55, 'SPRICE': 0, 'MEASURE': '200 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'Givvo Red Onions', 'DESC': "Product of Australia. Red onions have a slightly sweeter and milder flavor than brown onions. Also known as Spanish onions, they are used both raw and cooked. They're great in salsas, salads and dips, as well as in pasta sauces and cooked vegetable dishes. Red onions are available all year round.", 'IMGURL': '/i/m/8885003324634_6_1434607258969.jpg', 'PRICE': 3.9, 'SPRICE': 0, 'MEASURE': '500 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'Givvo Beijing Cabbage', 'DESC': 'Product of China. The crisp and fleshy leaves are loaded with tart tanginess and a surprisingly pleasing aroma. Use chopped in stir-fries and salads or simply boil the leaves and serve with a little butter, salt and pepper.', 'IMGURL': '/i/m/8885003321046_0228_1448861605628.jpg', 'PRICE': 1.25, 'SPRICE': 1.1, 'MEASURE': '700 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'BELLVO Yellow Cherry Tomato', 'DESC': 'Product of Malaysia. Cherry tomatoes are a very small variety of tomato that has outstanding antioxidant content which makes it a staple item across all cuisines and every salad mix. Yellow tomatoes have lots of niacin and folate, less vitamin C, less lycopene and tastes milder and less acidic than red tomatoes.', 'IMGURL': '/i/m/8885003328441_0061_1470814553359.jpg', 'PRICE': 1.55, 'SPRICE': 0.0, 'MEASURE': '320 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'BELLVO Zucchini Green Courgettes', 'DESC': 'Product of Malaysia. Categorized as a summer squash that has a thin, soft skin and soft edible seeds. It is slightly smaller at the stem end and can be dark green, yellow or pale green in color. The flesh is a pale greenish-white and has a delicate, almost sweet flavor.', 'IMGURL': '/i/m/8885003328243_0081_1470814527311.jpg', 'PRICE': 3.45, 'SPRICE': 3.0, 'MEASURE': '700 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'YUVVO Holland Potato', 'DESC': 'Product of China / Holland depending on season. An important food staple and the number one vegetable crop in the world. Usually baked, mashed or roasted.', 'IMGURL': '/i/m/8885003329011_0008_1476354573739.jpg', 'PRICE': 2.35, 'SPRICE': 1.2, 'MEASURE': '800 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'Givvo Fine Asparagus', 'DESC': 'Product of Thailand. Fine asparagus are loaded with all the same full-flavored earthiness as regular asparagus. It is much thinner yet delivers a sweet crunch with every bite. Asparagus can be prepared in many different ways: steamed, roasted , blanched or raw, they are guaranteed to add elegance to any dish. When cooked, asparagus develops pleasant notes of toasted almonds, artichoke, and butter.', 'IMGURL': '/i/m/8885003326553_0100_1448861765210.jpg', 'PRICE': 1.95, 'SPRICE': 0.0, 'MEASURE': '100 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'Givvo Iceberg Lettuce', 'DESC': 'Product of Malaysia. The iceberg lettuce is used for everything from sandwiches to coleslaw. Its leaves are pale green, and quite firm and crisp in texture. Iceberg lettuce has a refreshing flavor, and is available all year round.', 'IMGURL': '/i/m/8885003324207_0130_1448861665507.jpg', 'PRICE': 1.6, 'SPRICE': 0.0, 'MEASURE': '1 per pack'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'Givvo Spring Onions Scallions', 'DESC': 'Product of China. Spring Onions are the green shoots from immature onions, picked before the bulb has time to mature. They have a mild onion flavor, and are commonly used raw in salads, as well as cooked in stir fries and pasta sauces. They are available all year round.', 'IMGURL': '/i/m/88850033267512_1433994958714.jpg', 'PRICE': 2.5, 'SPRICE': 0.0, 'MEASURE': '200 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'Givvo Old Ginger', 'DESC': 'Product of Malaysia. Ginger is used a lot in Asian and Indian cuisine. It is sweet and floral on your tongue, tickles your sinuses, and warms the back of your throat. Ginger brings out the flavor in sweet and savory foods and works very well in curries, marinades and stir-fries.', 'IMGURL': '/i/m/8888383323761_0225_1448861886869.jpg', 'PRICE': 1.14, 'SPRICE': 0.0, 'MEASURE': '200 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'Givvo Celery', 'DESC': "Product of USA/ Australia. Celery is a staple in any cook's kitchen as it is a versatile ingredient with a deep clean taste. It puts the crunch in salads and when sauteed, celery provides a gentle, herby backbone for soups and stews.", 'IMGURL': '/i/m/8885003320070_0122_1448861548246.jpg', 'PRICE': 3.45, 'SPRICE': 0.0, 'MEASURE': '750 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'BELLVO Yellow Capsicum Bell Pepper', 'DESC': 'Product of Malaysia. Known as sweet pepper or bell pepper, it has a characteristic bell shape with crunchy, thick fleshy texture and are rich source of vitamin-C.', 'IMGURL': '/i/m/8885003328540_0092_1470814627594.jpg', 'PRICE': 2.1, 'SPRICE': 1.4, 'MEASURE': '200 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'YUVVO Spring Onion', 'DESC': 'Product of Malaysia. Hollow green leaves that grow from immature onions, picked before the bulb has time to mature. They have a milder taste than onion. Used mainly as garnish.', 'IMGURL': '/i/m/88850033293010035_1482318774370.jpg', 'PRICE': 0.55, 'SPRICE': 0.0, 'MEASURE': '80 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'Givvo Baby Shanghai Green', 'DESC': 'Product of China/ Malaysia/ Thailand. Fresh Baby Shanghai Green is one of the most popular vegetables in Asian cuisine. It is relatively cheap, easy to prepare and quick to cook.', 'IMGURL': '/i/m/8885003325648_0001_1490693128008.jpg', 'PRICE': 1.8, 'SPRICE': 0.0, 'MEASURE': '150 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'Givvo Japanese Sweet Potatoes', 'DESC': "Product of Vietnam. Sweet potatoes don't have to take a long time to prepare. Cutting them into 1/2-inch slices and steaming them for just 7 minutes not only brings out their great flavor but helps to maximize their nutritional value. And you can add cinnamon, nutmeg, and/or cloves for extra flavor and nutrition.", 'IMGURL': '/i/m/8885003326270_0166_1448861748507.jpg', 'PRICE': 2.9, 'SPRICE': 0, 'MEASURE': '500 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'Givvo Italian Wild Rocket Arugula', 'DESC': "Product of Italy. This peppery-tasting salad green gives a real lift to all kinds of salads and side dishes. It's also delicious stirred through pastas or risottos just before serving. Rocket is also known as arugula.", 'IMGURL': '/i/m/8885003324405_1_1434606930509.jpg', 'PRICE': 4.55, 'SPRICE': 4.15, 'MEASURE': '125 g'}
+2017-05-29 13:13:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://api.redmart.com/v1.5.7/catalog/search?pageSize=18&sort=1&category=fresh-vegetables&page=1>
+{'NAME': 'YUVVO Small Medium Red Onions', 'DESC': "Product of India. Red onions have a slightly sweeter and milder flavor than brown onions and are often used both raw and cooked. They're great in salsas, salads and dips, as well as in pasta sauces and cooked vegetable dishes.  Average diameter ranges between 1.5 - 3 inches", 'IMGURL': '/i/m/8885003329325_0017_1476355008860.jpg', 'PRICE': 1.9, 'SPRICE': 0.0, 'MEASURE': '1 kg'}
+2017-05-29 13:13:44 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-05-29 13:13:44 [scrapy.extensions.feedexport] INFO: Stored csv feed (18 items) in: spidergod3.csv
+2017-05-29 13:13:44 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1058,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 15942,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 3,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 5, 29, 5, 13, 44, 421457),
+ 'item_scraped_count': 18,
+ 'log_count/DEBUG': 23,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 4,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2017, 5, 29, 5, 13, 42, 878832)}
+2017-05-29 13:13:44 [scrapy.core.engine] INFO: Spider closed (finished)

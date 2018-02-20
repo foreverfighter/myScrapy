@@ -1,0 +1,878 @@
+2017-05-23 13:04:31 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: bestbuy)
+2017-05-23 13:04:31 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'bestbuy', 'FEED_FORMAT': 'csv', 'FEED_URI': 'spidergod5.csv', 'LOG_FILE': 'scrapy.log', 'NEWSPIDER_MODULE': 'bestbuy.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['bestbuy.spiders']}
+2017-05-23 13:04:32 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2017-05-23 13:04:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-05-23 13:04:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-05-23 13:04:32 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-05-23 13:04:32 [scrapy.core.engine] INFO: Spider opened
+2017-05-23 13:04:32 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-05-23 13:04:32 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-05-23 13:04:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/robots.txt> (referer: None)
+2017-05-23 13:04:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500> (referer: None)
+2017-05-23 13:04:34 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET http://sg.bestbuy-world.com/index.php?main_page=index&manufacturers_id=54&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2017-05-23 13:04:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=index&manufacturers_id=18&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:37 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=index&manufacturers_id=18&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 22, in parse_product
+    img_url = response.urljoin(response.xpath('//img[@id="main-img"]/@src').extract_first().strip())
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-23 13:04:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=index&manufacturers_id=38&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:37 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=index&manufacturers_id=38&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 22, in parse_product
+    img_url = response.urljoin(response.xpath('//img[@id="main-img"]/@src').extract_first().strip())
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-23 13:04:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_145_146&products_id=3270&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_141_142&products_id=6892&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:41 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_145_146&products_id=3270&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_145_146&products_id=2239&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:41 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_141_142&products_id=6892&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_145_146&products_id=2239&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_141_143&products_id=9210&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_153_154&products_id=40319&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_157_158&products_id=1007&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_149_150&products_id=3611&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_149_150&products_id=16786&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_141_143&products_id=9210&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_153_154&products_id=40319&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_157_158&products_id=1007&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_149_150&products_id=3611&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:42 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_149_150&products_id=16786&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=index&manufacturers_id=35&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:43 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=index&manufacturers_id=35&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 22, in parse_product
+    img_url = response.urljoin(response.xpath('//img[@id="main-img"]/@src').extract_first().strip())
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-23 13:04:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=index&manufacturers_id=25&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:44 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=index&manufacturers_id=25&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 22, in parse_product
+    img_url = response.urljoin(response.xpath('//img[@id="main-img"]/@src').extract_first().strip())
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-23 13:04:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_145_146&products_id=5899&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:45 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_145_146&products_id=5899&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_149_150&products_id=39413&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_149_150&products_id=39413&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_161_162&products_id=2255&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:47 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_161_162&products_id=2255&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_145_146&products_id=25110&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:48 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_145_146&products_id=25110&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_161_162&products_id=4733&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_161_162&products_id=2247&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_149_150&products_id=13194&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:48 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_161_162&products_id=4733&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:48 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_161_162&products_id=2247&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:48 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_149_150&products_id=13194&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_141_142&products_id=9103&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:49 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_141_142&products_id=9103&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_141_142&products_id=3613&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:50 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_141_142&products_id=3613&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=index&manufacturers_id=54&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:50 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=index&manufacturers_id=54&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 22, in parse_product
+    img_url = response.urljoin(response.xpath('//img[@id="main-img"]/@src').extract_first().strip())
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-23 13:04:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_161_162&products_id=2294&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_161_162&products_id=2294&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_157_158&products_id=3293&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_141_142&products_id=9104&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+2017-05-23 13:04:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_157_158&products_id=3293&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:52 [scrapy.core.scraper] ERROR: Spider error processing <GET http://sg.bestbuy-world.com/index.php?main_page=product_info&cPath=140_141_142&products_id=9104&zenid=ak0v1tl8ksq5tdt1ehar7sukr6> (referer: http://sg.bestbuy-world.com/index.php?main_page=products_brand&brand=&cPath=0&manufacturers_id=0&sort=4d&min_price=5&max_price=500)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+lxml.etree.XPathEvalError: Invalid type
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\bestbuy\bestbuy\spiders\bestbuyspider.py", line 34, in parse_product
+    'DESC': '\n\n'.join(response.xpath('//div[@class="para"/descendant-or-self::text()]').extract()),
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\http\response\text.py", line 119, in xpath
+    return self.selector.xpath(query, **kwargs)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 226, in xpath
+    six.reraise(ValueError, ValueError(msg), sys.exc_info()[2])
+  File "c:\users\darren\anaconda3\lib\site-packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\parsel\selector.py", line 222, in xpath
+    **kwargs)
+  File "src\lxml\lxml.etree.pyx", line 1587, in lxml.etree._Element.xpath (src\lxml\lxml.etree.c:59353)
+  File "src\lxml\xpath.pxi", line 307, in lxml.etree.XPathElementEvaluator.__call__ (src\lxml\lxml.etree.c:171233)
+  File "src\lxml\xpath.pxi", line 227, in lxml.etree._XPathEvaluatorBase._handle_result (src\lxml\lxml.etree.c:170190)
+ValueError: XPath error: Invalid type in //div[@class="para"/descendant-or-self::text()]
+2017-05-23 13:04:52 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-05-23 13:04:52 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 12968,
+ 'downloader/request_count': 27,
+ 'downloader/request_method_count/GET': 27,
+ 'downloader/response_bytes': 608719,
+ 'downloader/response_count': 27,
+ 'downloader/response_status_count/200': 27,
+ 'dupefilter/filtered': 15,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 5, 23, 5, 4, 52, 263486),
+ 'log_count/DEBUG': 29,
+ 'log_count/ERROR': 25,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 27,
+ 'scheduler/dequeued': 26,
+ 'scheduler/dequeued/memory': 26,
+ 'scheduler/enqueued': 26,
+ 'scheduler/enqueued/memory': 26,
+ 'spider_exceptions/AttributeError': 5,
+ 'spider_exceptions/ValueError': 20,
+ 'start_time': datetime.datetime(2017, 5, 23, 5, 4, 32, 568891)}
+2017-05-23 13:04:52 [scrapy.core.engine] INFO: Spider closed (finished)

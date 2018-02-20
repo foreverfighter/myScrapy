@@ -1,0 +1,146 @@
+CARDNAME,STRENGTH,GROUP,RARITY,LOYALTY,FACTION,POSITION,TYPE,TEXT
+Adrenaline Rush,Group: Bronze,Rarity: Rare,Faction: Neutral,Position: Event,Type: Special,,,"Toggle a Unit’s Resilience.
+"
+Aeromancy,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,Type: Special,,,"Play a Weather card from your Deck or Graveyard. Shuffle the others from your Deck back.
+"
+Alzur’s Double Cross,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,Type: Special,,,"Strengthen the Highest Unit in your Deck by 2, then play it.
+"
+Alzur’s Thunder,Group: Bronze,Rarity: Common,Faction: Neutral,Position: Event,Type: Special,,,"Damage a Unit by 7.
+"
+Arachas Venom,Group: Bronze,Rarity: Common,Faction: Neutral,Position: Event,Type: Special,,,"Damage 3 adjacent Units by 4.
+"
+Avallac’h,Strength: 10,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Elf,"Deploy, Clash: Both players Draw 2 cards (including Golds).
+"
+Bekker’s Twisted Mirror,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,Type: Special,,,"Swap the Power of the Highest and Lowest Unit on the Board.
+"
+Biting Frost,Group: Bronze,Rarity: Common,Faction: Neutral,Position: Event,"Type: Special, Weather",,,"Apply Frost to a row.
+Frost: Turn Start: Damage Units on the row by 1.
+"
+Bloodcurdling Roar,Group: Bronze,Rarity: Rare,Faction: Neutral,Position: Event,Type: Special,,,"Destroy an Ally.
+Spawn a Bear.
+"
+Ciri,Strength: 7,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,,"Round End, Brave: If this Unit is on the Board, return it to your Hand.
+"
+Ciri: Dash,Strength: 9,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,,"When this Unit enters the Graveyard, Strengthen it by 3 and shuffle it back into your Deck.
+"
+Cleaver,Strength: 6,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Melee,Type: Dwarf,"Deploy: Toggle a Unit’s Lock.
+"
+Commander’s Horn,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,Type: Special,,,"Boost 5 adjacent Units by 4.
+"
+Cyprian Wiley,Strength: 7,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Siege,,"Deploy: Weaken a Unit by 3 or Destroy an Ambush Unit.
+"
+Decoy,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,Type: Special,,,"Return an Ally to your Hand, Strengthen it by 3, then play it.
+"
+Dimeritium Bomb,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,Type: Special,,,"Demote and Reset 3 adjacent Units.
+"
+Dimeritium Shackles,Group: Bronze,Rarity: Rare,Faction: Neutral,Position: Event,Type: Special,,,"Toggle a Unit’s Lock. If it is Gold, Demote it.
+"
+Drought,Group: Gold,Rarity: Legendary,Faction: Neutral,"Type: Special, Weather",,,,"Apply Drought to all rows on your opponent’s side.
+Drought: Turn Start: Damage the Lowest Unit on the row by 3.
+"
+Dudu,Strength: 1,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Relict,"Deploy: Choose an Enemy and copy its Power.
+"
+Epidemic,Group: Bronze,Rarity: Rare,Faction: Neutral,Position: Event,Type: Special,,,"Destroy the Lowest Unit(s).
+"
+Eskel,Strength: 5,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Melee,Type: Witcher,"Deploy: Summon Vesemir & Lambert.
+"
+First Light,Group: Bronze,Rarity: Common,Faction: Neutral,Position: Event,Type: Special,,,"Spawn Clear Skies or Rally.
+"
+Gaunter O’Dimm,Strength: 5,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Relict,"Deploy: Gamble with the Man of Glass. Success: Play a card from your Deck (including Golds). Shuffle the others back. Failure: Your opponent Draws a card (including Golds). Tie: Both players Draw a card (including Golds).
+"
+Geralt,Strength: 10,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Witcher,"Deploy, Brave: Strengthen self by 3.
+"
+Geralt: Aard,Strength: 8,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Witcher,"Deploy: Push 5 adjacent Enemies to the row above them and Damage them by 2.
+"
+Geralt: Igni,Strength: 4,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Witcher,"Deploy: Destroy the Highest Unit(s) on the opposite row if that row totals 20 or more Power.
+"
+Immune Boost,Group: Bronze,Rarity: Rare,Faction: Neutral,Position: Event,,,,"Boost 3 adjacent Units by 3 and add 3 Armor to them.
+"
+Impenetrable Fog,Group: Bronze,Rarity: Common,Faction: Neutral,Position: Event,"Type: Special, Weather",,,"Apply Fog to a row.
+Fog: Turn Start: Damage the Highest Unit(s) on the row by 2.
+"
+Iris,Strength: 3,Group: Silver,Rarity: Epic,Loyalty: Disloyal,Faction: Neutral,Position: Multiple,,"Deathwish: Boost all Units on the other side of the Board by 3.
+"
+Johnny,Strength: 5,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Siege,Type: Relict,"Deploy: Discard a card in your Hand (including Golds), then create in your Hand a card of the same color from your opponent’s Deck.
+"
+King of Beggars,Strength: 5,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Ranged,,"Deploy, Brave: Strengthen self enough to tie the Round or to a maximum of 15 base Power.
+"
+Lacerate,Group: Bronze,Rarity: Rare,Faction: Neutral,Position: Event,Type: Special,,,"Damage all Units on a row by 3.
+"
+Lambert,Strength: 5,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Melee,Type: Witcher,"Deploy: Summon Eskel & Vesemir.
+"
+Manticore Venom,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,Type: Special,,,"Damage 5 adjacent Units by 4.
+"
+Marching Orders,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,Type: Special,,,"Strengthen the Lowest Unit in your Deck by 2, then play it.
+"
+Mardroeme,Group: Bronze,Rarity: Rare,Faction: Neutral,Position: Event,Type: Special,,,"Reset a Unit and Strengthen it by 3; or Reset a Unit and Weaken it by 3.
+"
+Merigold’s Hailstorm,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,"Type: Special, Weather",,,"Damage all Units on a row by half their Power (rounding down and ignoring Armor).
+"
+Myrgtabrakke,Strength: 5,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Ranged,Type: Draconid,"Deploy: Damage Units by 2, 2 and then 1.
+"
+Necromancy,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,Type: Special,,,"Banish a Unit from either Graveyard and Boost your Highest Ally by its Power.
+"
+Ocvist,Strength: 6,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Siege,Type: Draconid,"Timer 4, Turn Start: Damage all Enemies by 1, then return this Unit to your Hand and Transform it into Exhausted Ocvist.
+"
+Olgierd,Strength: 7,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Melee,Type: Cursed,"Veteran: Resurrect this Unit and Weaken it by 2.
+"
+Operator,Strength: 9,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Ranged,"Type: Doomed, Mage, Relentless","Deploy: Choose a Bronze Unit in your Hand and create a base copy of it in both players’ Hands.
+"
+Overdose,Group: Bronze,Rarity: Rare,Faction: Neutral,Position: Event,,,,"Damage 3 adjacent Units by 3 and remove 3 Armor from them.
+"
+Prize Winning Cow,Strength: 2,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Multiple,"Type: Beast, Doomed","Retaliation: Spawn a Chort on the row.
+Deathwish: Spawn a Chort on the row.
+"
+Quen Sign,Group: Bronze,Rarity: Common,Faction: Neutral,Position: Event,Type: Special,,,"Choose a Unit in your Hand. Give all copies of it in your Hand and Deck a Shield and Boost them by 2. Units which already have a Shield cannot be chosen and aren’t affected.
+"
+Ragh Nar Roog,Group: Gold,Rarity: Legendary,Faction: Neutral,Position: Event,"Type: Special, Weather",,,"Apply Ragh Nar Roog to all rows on your opponent’s side.
+Ragh Nar Roog: Turn Start: Damage the Highest Unit on the row by 3.
+"
+Regis,Strength: 8,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Vampire,"Timer 2, Turn Start: Boost self by 7 if you are winning the Round.
+"
+Regis: Higher Vampire,Strength: 6,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Vampire,"Deploy: Look at 3 random Bronze Units from your opponent’s Deck. Consume 1 and shuffle the others back.
+"
+Renew,Group: Gold,Rarity: Legendary,Faction: Neutral,Position: Event,Type: Special,,,"Resurrect a Gold Unit from either Graveyard.
+"
+Roach,Strength: 5,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Beast,"Summon this Unit on a random row whenever you play a Gold card (excluding Leaders).
+"
+Royal Decree,Group: Gold,Rarity: Legendary,Faction: Neutral,Position: Event,Type: Special,,,"Play a Gold card from your Deck. Shuffle the others back.
+"
+Sarah,Strength: 7,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Siege,Type: Relict,"Deploy: Shuffle a card from your Hand (including Golds) back into your Deck, then Draw a different card of the same color.
+"
+Scorch,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,Type: Special,,,"Destroy the Highest Unit(s).
+"
+Skellige Storm,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,"Type: Special, Weather",,,"Apply Skellige Storm to a row.
+Skelige Storm: Turn Start: Damage the Units at the end of the row by 3, 2, and 1.
+"
+Stammelford’s Tremors,Group: Bronze,Rarity: Rare,Faction: Neutral,Position: Event,Type: Special,,,"Damage up to 8 random Enemies by 2.
+"
+Summoning Circle,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,Type: Special,,,"Spawn a base copy of the last Enemy your opponent played from their Hand.
+"
+Swallow Potion,Group: Bronze,Rarity: Common,Faction: Neutral,Position: Event,Type: Special,,,"Boost a unit by 8.
+"
+The Last Wish,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,Type: Special,,,"Draw 2 cards. Play 1 and shuffle the other back.
+"
+Thunderbolt Potion,Group: Bronze,Rarity: Common,Faction: Neutral,Position: Event,Type: Special,,,"Boost 3 adjacent Units by 4.
+"
+Torrential Rain,Group: Bronze,Rarity: Common,Faction: Neutral,Position: Event,"Type: Special, Weather",,,"Apply Rain to a row.
+Rain: Turn Start: Damage the Lowest Unit(s) on the row by 2.
+"
+Triss: Butterfly Spell,Strength: 5,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Mage,"Turn Start: Boost the Lowest Ally/Allies by 1.
+"
+Triss Merigold,Strength: 7,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Mage,"Deploy: Damage a Unit by 5.
+"
+Vesemir,Strength: 6,Group: Silver,Rarity: Epic,Loyalty: Loyal,Faction: Neutral,Position: Melee,Type: Witcher,"Deploy: Summon Eskel & Lambert.
+"
+Villentretenmerth,Strength: 6,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Draconid,"Timer 3, Turn Start: Destroy the Highest Unit(s) on the Board twice.
+"
+White Frost,Group: Silver,Rarity: Epic,Faction: Neutral,Position: Event,"Type: Special, Weather",,,"Apply Frost to a row on your opponent’s side and the row above it.
+Frost: Turn Start: Damage Units on the row by 1.
+"
+Yennefer,Strength: 6,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Mage,"Deploy: Spawn a Unicorn or a Chironex.
+"
+Yennefer: The Conjurer,Strength: 4,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Mage,"Turn Start: Damage the Highest Enemy/Enemies by 1.
+"
+Zoltan: Animal Tamer,Strength: 7,Group: Gold,Rarity: Legendary,Loyalty: Loyal,Faction: Neutral,Position: Multiple,Type: Dwarf,"Deploy: Spawn Field Marshal Duda Companion or Field Marshal Duda Agitator.
+"

@@ -1,0 +1,31 @@
+HREF,FAILMSG
+http://www.thegreenbook.com/products/agriculture-irrigation-pumps/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/agricultural-tyres/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/agricultural-tillers/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/agricultural-sprayers/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/agricultural-equipment-supplies/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/agarwood/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/aerial-work-platforms/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/adhesives/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+HREF,FAILMSG
+http://www.thegreenbook.com/products/agriculture-irrigation-pumps/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/air-compressor-parts/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/air-cleaning-purifying-equipment/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/work-platform-elevating/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/agricultural-tractors/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/agricultural-tillers/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/windows/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/window-insulating-film/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/window-gaskets/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/window-frames/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/window-film-explosion-proof-safety-solar-decorative-etc/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/window-film/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+HREF,FAILMSG
+http://www.thegreenbook.com/products/air-compressors/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/air-conditioning-maintenance/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/work-platform-elevating/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/windows/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/window-insulating-film/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/window-gaskets/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/window-frames/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/window-fittings/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>

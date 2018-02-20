@@ -1,0 +1,61 @@
+CARDNAME,STRENGTH,GROUP,RARITY,LOYALTY,FACTION,POSITION,TYPE,TEXT
+Ancient Foglet,Strength:,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:,Turn Start: Boost
+Arachas, 6, , , , , , , self by 1 if Fog is anywhere on the Board.
+Arachas Behemoth,Strength:,Bronze,Rare,Loyal,Monsters,Ranged,Necrophage,"
+"
+Archgriffin, 3,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:,Deploy: Summon
+Caranthir,Strength:, , , , , , , all copies of this Unit.
+Caretaker, 5,Bronze,Common,Loyal,Monsters,Ranged,Insectoid,"
+"
+Celaeno Harpy,Strength:,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:,Armor
+Chort, 7, , , , , , , 2
+Crone: Brewess,Strength:,Bronze,Rare,Loyal,Monsters,Siege,Insectoid,"
+"
+Crone: Weavess, 5,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:,Whenever an 
+Crone: Whispess,Strength:, , , , , , ,Ally Consumes
+Dagon, 4,Bronze,Common,Loyal,Monsters,Multiple,Beast," a card, "
+Draug,Strength:,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:,Deploy: Damage
+Drowner, 7, , , , , , , a random 
+Earth Elemental,Strength:,Gold,Legendary,Loyal,Monsters,Multiple,Specter,Enemy
+Ekimmara, 7,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:, by 1. Repeat 6 times.
+Eredin,Strength:, , , , , , ,"
+"
+Fiend, 6,Bronze,Common,Loyal,Monsters,Multiple,Necrophage,Deploy:
+Fire Elemental,Strength:,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:, Move a Unit to this row on its side.
+Foglet, 3, , , , , , ,"
+"
+Frightener,Strength:,Bronze,Common,Loyal,Monsters,Melee,Construct,Deploy:
+Ge’els, 5,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:, Give this Unit a 
+Ghoul,Strength:, , , , , , ,Shield
+Giant Toad, 5,Bronze,Rare,Loyal,Monsters,Multiple,Vampire,.
+Golem,Strength:,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:,"When removed from the battlefield, spawn "
+Grave Hag, 7, , , , , , ,2 Lesser Golems
+Griffin,Strength:,Bronze,Common,Loyal,Monsters,Melee,Necrophage, on the row where this unit was.
+Harpy, 2,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:,"
+"
+Ice Giant,Strength:, , , , , , ,Timer
+Imlerith, 6,Silver,Epic,Loyal,Monsters,Multiple,Beast," 1, "
+Jotunn,Strength:,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:,Turn Start: Consume
+Katakan, 3, , , , , , ," all Units in your Graveyard, but only "
+Kayran,Strength:,Bronze,Common,Loyal,Monsters,Siege,Beast,Boost
+Manticore, 5,Group:,Rarity:,Loyalty:,Faction:,Position:,", ", this Unit by 1 for each.
+Monster Nest,Strength:, , , , , ,Harpy,"
+"
+Nekker, 8,Bronze,Rare,Loyal,Monsters,Multiple,Type:,Deploy:
+Nekker Warrior,Strength:,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:,Deploy:
+Nithral, 5, , , , , , , Choose a Bronze 
+Old Speartip: Asleep,Strength:,Bronze,Rare,Loyal,Monsters,Melee,Wild Hunt,ally
+Shadow, 4,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:, and create 2 base copies of it on the bottom of your Deck.
+Succubus,Strength:, , , , , , ,"
+"
+Unseen Elder, 5,Silver,Epic,Loyal,Monsters,Multiple,Ogroid,Armor
+Vran Warrior,Strength:,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:, 3
+Water Hag, 6, , , , , , ,"
+"
+Wild Hunt Hound,Strength:,Gold,Legendary,Loyal,Monsters,Multiple,Necrophage,Biting Frost 
+Wild Hunt Navigator, 6,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:,Damage
+Wild Hunt Rider,Strength:, , , , , , , increased to 2.
+Wild Hunt Warrior, 4,Silver,Epic,Loyal,Monsters,Multiple,Beast,"
+"
+Woodland Spirit,Strength:,Group:,Rarity:,Loyalty:,Faction:,Position:,Type:,Deploy: Spawn
+Wyvern, 5, , , , , , , 3 Rabid Wolves and apply Fog to the opposite row.

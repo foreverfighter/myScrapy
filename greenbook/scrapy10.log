@@ -1,0 +1,1523 @@
+2017-06-05 13:25:48 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: greenbook)
+2017-06-05 13:25:48 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'greenbook', 'FEED_FORMAT': 'csv', 'FEED_URI': 'spidergod10.csv', 'LOG_FILE': 'scrapy10.log', 'NEWSPIDER_MODULE': 'greenbook.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['greenbook.spiders']}
+2017-06-05 13:25:48 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2017-06-05 13:25:49 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-06-05 13:25:49 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-06-05 13:25:49 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-06-05 13:25:49 [scrapy.core.engine] INFO: Spider opened
+2017-06-05 13:25:49 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-06-05 13:25:49 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-06-05 13:25:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thegreenbook.com/robots.txt> (referer: None)
+2017-06-05 13:25:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/> (referer: None)
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:51 [greenbook] INFO: Found a subcat
+2017-06-05 13:25:52 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/agricultural-tillers/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:52 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/agarwood/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:52 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/adhesives/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:52 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/abrasive-cutting-wheels/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:52 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/agricultural-sprayers/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:52 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/agricultural-tillers/>
+{'HREF': 'http://www.thegreenbook.com/products/agricultural-tillers/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:52 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/agarwood/>
+{'HREF': 'http://www.thegreenbook.com/products/agarwood/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:52 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/adhesives/>
+{'HREF': 'http://www.thegreenbook.com/products/adhesives/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:52 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/abrasive-cutting-wheels/>
+{'HREF': 'http://www.thegreenbook.com/products/abrasive-cutting-wheels/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:52 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/agricultural-sprayers/>
+{'HREF': 'http://www.thegreenbook.com/products/agricultural-sprayers/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:53 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/additives-drilling-mud/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:53 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/additives-concrete/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:53 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/additives-drilling-mud/>
+{'HREF': 'http://www.thegreenbook.com/products/additives-drilling-mud/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:53 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/additives-concrete/>
+{'HREF': 'http://www.thegreenbook.com/products/additives-concrete/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:53 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/adhesive-chemicals/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:53 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/adhesive-application-equipment/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:53 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/additives-paint/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:53 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/adapter-type-roller-bearings/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:53 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/adhesive-chemicals/>
+{'HREF': 'http://www.thegreenbook.com/products/adhesive-chemicals/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:53 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/adhesive-application-equipment/>
+{'HREF': 'http://www.thegreenbook.com/products/adhesive-application-equipment/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:53 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/additives-paint/>
+{'HREF': 'http://www.thegreenbook.com/products/additives-paint/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:53 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/adapter-type-roller-bearings/>
+{'HREF': 'http://www.thegreenbook.com/products/adapter-type-roller-bearings/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:54 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/adapter-type-ball-bearings/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:54 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/actuators-valve/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:54 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/work-platform-elevating/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:54 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/adapter-type-ball-bearings/>
+{'HREF': 'http://www.thegreenbook.com/products/adapter-type-ball-bearings/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:54 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/actuators-valve/>
+{'HREF': 'http://www.thegreenbook.com/products/actuators-valve/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:54 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/work-platform-elevating/>
+{'HREF': 'http://www.thegreenbook.com/products/work-platform-elevating/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:54 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/window-insulating-film/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:54 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/window-gaskets/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:54 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/window-insulating-film/>
+{'HREF': 'http://www.thegreenbook.com/products/window-insulating-film/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:54 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/window-gaskets/>
+{'HREF': 'http://www.thegreenbook.com/products/window-gaskets/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:55 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/window-frames/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:55 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/window-film/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:55 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/window-frames/>
+{'HREF': 'http://www.thegreenbook.com/products/window-frames/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:55 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/window-film/>
+{'HREF': 'http://www.thegreenbook.com/products/window-film/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:55 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/window-cleaning-service/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:55 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/window-cleaning-equipment/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thegreenbook.com/products/agricultural-tractors/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:55 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/window-cleaning-service/>
+{'HREF': 'http://www.thegreenbook.com/products/window-cleaning-service/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:55 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/window-cleaning-equipment/>
+{'HREF': 'http://www.thegreenbook.com/products/window-cleaning-equipment/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:55 [greenbook] INFO: Ran parse_listing
+2017-06-05 13:25:55 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.thegreenbook.com/products/agricultural-tractors/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\greenbook\greenbook\spiders\greenbook.py", line 32, in parse_listing
+    current_page = int(response.xpath('//div[@class="numberNagivation"]/a[@class="active"]/text()').extract_first())
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2017-06-05 13:25:55 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/wide-inner-ring-ball-bearings/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:55 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/wheels-grinding-lapping/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:55 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/wide-inner-ring-ball-bearings/>
+{'HREF': 'http://www.thegreenbook.com/products/wide-inner-ring-ball-bearings/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:55 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/wheels-grinding-lapping/>
+{'HREF': 'http://www.thegreenbook.com/products/wheels-grinding-lapping/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:55 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/window-fittings/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:55 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/wheels-cutting/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:55 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/window-fittings/>
+{'HREF': 'http://www.thegreenbook.com/products/window-fittings/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:55 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/wheels-cbn/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:55 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/wheels-cutting/>
+{'HREF': 'http://www.thegreenbook.com/products/wheels-cutting/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:55 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/wheels-castor/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:55 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/wheels-cbn/>
+{'HREF': 'http://www.thegreenbook.com/products/wheels-cbn/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/wheels-castor/>
+{'HREF': 'http://www.thegreenbook.com/products/wheels-castor/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/wheel-loaders/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/wheelbarrows/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/window-film-explosion-proof-safety-solar-decorative-etc/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/wheel-loaders/>
+{'HREF': 'http://www.thegreenbook.com/products/wheel-loaders/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/wheelbarrows/>
+{'HREF': 'http://www.thegreenbook.com/products/wheelbarrows/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/window-film-explosion-proof-safety-solar-decorative-etc/>
+{'HREF': 'http://www.thegreenbook.com/products/window-film-explosion-proof-safety-solar-decorative-etc/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-wires/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-wire-feeders/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-wires/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-wires/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-transformers/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/companies/multico-equipment-parts-pte-ltd/> (referer: http://www.thegreenbook.com/products/agricultural-tractors/)
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-wire-feeders/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-wire-feeders/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-transformers/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-transformers/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/companies/multico-equipment-parts-pte-ltd/>
+{'HREF': 'http://www.thegreenbook.com/companies/multico-equipment-parts-pte-ltd/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/companies/john-deere-asia-singapore-pte-ltd/> (referer: http://www.thegreenbook.com/products/agricultural-tractors/)
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/windows/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/companies/at-besquip-asia-pacific-pte-ltd/> (referer: http://www.thegreenbook.com/products/agricultural-tractors/)
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-torches/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-tools-plastic/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/companies/john-deere-asia-singapore-pte-ltd/>
+{'HREF': 'http://www.thegreenbook.com/companies/john-deere-asia-singapore-pte-ltd/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/windows/>
+{'HREF': 'http://www.thegreenbook.com/products/windows/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/companies/at-besquip-asia-pacific-pte-ltd/>
+{'HREF': 'http://www.thegreenbook.com/companies/at-besquip-asia-pacific-pte-ltd/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-torches/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-torches/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-tools-plastic/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-tools-plastic/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-timers/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-spectacles/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-spatter-preventives/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-service/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-timers/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-timers/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-spectacles/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-spectacles/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-spatter-preventives/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-spatter-preventives/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:56 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-service/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-service/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:57 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-robots/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:57 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-temperature-indicators/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:57 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-rectifiers/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:57 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-positioners-manipulators-etc/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:57 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-nozzle-tip-replacer/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:57 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-robots/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-robots/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:57 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-temperature-indicators/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-temperature-indicators/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:57 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-rectifiers/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-rectifiers/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:57 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-positioners-manipulators-etc/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-positioners-manipulators-etc/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:57 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-nozzle-tip-replacer/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-nozzle-tip-replacer/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:57 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-nozzle-tip-cleaners/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:57 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-nozzles/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:57 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-metal-powders/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:57 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-machines-plastic/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:57 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-nozzle-tip-cleaners/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-nozzle-tip-cleaners/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:57 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-nozzles/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-nozzles/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:57 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-lenses/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:57 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-metal-powders/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-metal-powders/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:57 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-machines-plastic/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-machines-plastic/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:57 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-inspection-service/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:57 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-lenses/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-lenses/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:57 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-inspection-service/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-inspection-service/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:58 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-gun-balancers/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:58 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-hose/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:58 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-gun-balancers/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-gun-balancers/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:58 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-hose/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-hose/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:58 [scrapy.core.engine] DEBUG: Crawled (403) <GET http://www.thegreenbook.com/products/welding-hose-cable-reels/> (referer: http://www.thegreenbook.com/products/search/architect-builder-contractor-guides/)
+2017-06-05 13:25:58 [scrapy.core.scraper] DEBUG: Scraped from <403 http://www.thegreenbook.com/products/welding-hose-cable-reels/>
+{'HREF': 'http://www.thegreenbook.com/products/welding-hose-cable-reels/', 'FAILMSG': '<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>'}
+2017-06-05 13:25:58 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2017-06-05 13:25:58 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2017-06-05 13:25:59 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2017-06-05 13:25:59 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://www.thegreenbook.com/products/agricultural-equipment-supplies/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2017-06-05 13:25:59 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.thegreenbook.com/products/agricultural-equipment-supplies/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: >]
+2017-06-05 13:25:59 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://www.thegreenbook.com/products/welding-gases/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2017-06-05 13:25:59 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.thegreenbook.com/products/welding-gases/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>, <twisted.python.failure.Failure twisted.web.http._DataLoss: >]
+2017-06-05 13:25:59 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.thegreenbook.com/products/aerial-work-platforms/> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]

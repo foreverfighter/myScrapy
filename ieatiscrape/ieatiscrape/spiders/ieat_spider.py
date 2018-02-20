@@ -1,5 +1,5 @@
 import scrapy
-
+#scrapy crawl ieat -o ieat.csv
 
 class IEatSpider(scrapy.Spider):
     name = "ieat"

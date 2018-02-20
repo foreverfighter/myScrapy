@@ -1,0 +1,8 @@
+HREF,FAILMSG
+http://www.thegreenbook.com/products/abrasives/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/rubber-beltings/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/work-platform-elevating/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/windows/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/window-gaskets/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/products/abrasive-cutting-wheels/page/2/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+http://www.thegreenbook.com/companies/disco-hi-tec-s-pte-ltd/,<twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>

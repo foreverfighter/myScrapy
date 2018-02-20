@@ -1,0 +1,674 @@
+2017-05-22 11:28:13 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: twilightstrategy)
+2017-05-22 11:28:13 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'twilightstrategy', 'FEED_FORMAT': 'csv', 'FEED_URI': 'cuteger8.csv', 'LOG_FILE': 'scrapy.log', 'NEWSPIDER_MODULE': 'twilightstrategy.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['twilightstrategy.spiders']}
+2017-05-22 11:28:13 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2017-05-22 11:28:13 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-05-22 11:28:13 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-05-22 11:28:13 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-05-22 11:28:13 [scrapy.core.engine] INFO: Spider opened
+2017-05-22 11:28:13 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-05-22 11:28:13 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-05-22 11:28:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/robots.txt> (referer: None)
+2017-05-22 11:28:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/card-list/> (referer: None)
+2017-05-22 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2011/12/14/regions-asia/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:16 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://lolthisaintworkinghaaaa.com/robots.txt> (failed 1 times): DNS lookup failed: no results for hostname lookup: lolthisaintworkinghaaaa.com.
+2017-05-22 11:28:16 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://lolthisaintworkinghaaaa.com/robots.txt> (failed 2 times): DNS lookup failed: no results for hostname lookup: lolthisaintworkinghaaaa.com.
+2017-05-22 11:28:16 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://lolthisaintworkinghaaaa.com/robots.txt> (failed 3 times): DNS lookup failed: no results for hostname lookup: lolthisaintworkinghaaaa.com.
+2017-05-22 11:28:16 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET http://lolthisaintworkinghaaaa.com/robots.txt>: DNS lookup failed: no results for hostname lookup: lolthisaintworkinghaaaa.com.
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\twisted\internet\defer.py", line 1299, in _inlineCallbacks
+    result = result.throwExceptionIntoGenerator(g)
+  File "c:\users\darren\anaconda3\lib\site-packages\twisted\python\failure.py", line 393, in throwExceptionIntoGenerator
+    return g.throw(self.type, self.value, self.tb)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    defer.returnValue((yield download_func(request=request,spider=spider)))
+  File "c:\users\darren\anaconda3\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "c:\users\darren\anaconda3\lib\site-packages\twisted\internet\endpoints.py", line 838, in startConnectionAttempts
+    "no results for hostname lookup: {}".format(self._hostStr)
+twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: lolthisaintworkinghaaaa.com.
+2017-05-22 11:28:16 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://lolthisaintworkinghaaaa.com> (failed 1 times): DNS lookup failed: no results for hostname lookup: lolthisaintworkinghaaaa.com.
+2017-05-22 11:28:16 [twilight2] INFO: Visited https://twilightstrategy.com/2011/12/14/regions-asia/
+2017-05-22 11:28:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://twilightstrategy.com/2011/12/14/regions-asia/> (referer: https://twilightstrategy.com/card-list/)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 84, in parse_card
+    'TIME': extract_with_xpath('//div[@class="entry-content"]/p[3]/text()[1]'),
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 77, in extract_with_xpath
+    return response.xpath(query).extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-22 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/04/05/decolonization/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/05/07/un-intervention/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/04/02/east-european-unrest/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/03/27/usjapan-mutual-defense-pact/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:16 [twilight2] INFO: Visited https://twilightstrategy.com/2012/04/05/decolonization/
+2017-05-22 11:28:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/04/05/decolonization/>
+{'HREF': 'https://twilightstrategy.com/2012/04/05/decolonization/', 'NAME': 'Decolonization', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:16 [twilight2] INFO: Visited https://twilightstrategy.com/2012/05/07/un-intervention/
+2017-05-22 11:28:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/05/07/un-intervention/>
+{'HREF': 'https://twilightstrategy.com/2012/05/07/un-intervention/', 'NAME': 'UN Intervention', 'TIME': 'Early War', 'SIDE': 'Neutral', 'OPS': '1', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/04/23/red-scarepurge/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/05/29/de-stalinization/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:16 [twilight2] INFO: Visited https://twilightstrategy.com/2012/04/02/east-european-unrest/
+2017-05-22 11:28:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/04/02/east-european-unrest/>
+{'HREF': 'https://twilightstrategy.com/2012/04/02/east-european-unrest/', 'NAME': 'East European Unrest', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:16 [twilight2] INFO: Visited https://twilightstrategy.com/2012/03/27/usjapan-mutual-defense-pact/
+2017-05-22 11:28:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/03/27/usjapan-mutual-defense-pact/>
+{'HREF': 'https://twilightstrategy.com/2012/03/27/usjapan-mutual-defense-pact/', 'NAME': 'US/Japan Mutual Defense\xa0Pact', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '4', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:16 [twilight2] INFO: Visited https://twilightstrategy.com/2012/04/23/red-scarepurge/
+2017-05-22 11:28:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/04/23/red-scarepurge/>
+{'HREF': 'https://twilightstrategy.com/2012/04/23/red-scarepurge/', 'NAME': 'Red Scare/Purge', 'TIME': 'Early War', 'SIDE': 'Neutral', 'OPS': '4', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:16 [twilight2] INFO: Visited https://twilightstrategy.com/2012/05/29/de-stalinization/
+2017-05-22 11:28:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/05/29/de-stalinization/>
+{'HREF': 'https://twilightstrategy.com/2012/05/29/de-stalinization/', 'NAME': 'De-Stalinization', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/03/26/cia-created/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/03/29/suez-crisis/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/03/13/independent-reds/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/03/20/containment/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/03/26/cia-created/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/03/26/cia-created/>
+{'HREF': 'https://twilightstrategy.com/2012/03/26/cia-created/', 'NAME': 'CIA Created', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '1', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/03/29/suez-crisis/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/03/29/suez-crisis/>
+{'HREF': 'https://twilightstrategy.com/2012/03/29/suez-crisis/', 'NAME': 'Suez Crisis', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/03/12/nato/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/03/19/indo-pakistani-war/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/03/13/independent-reds/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/03/13/independent-reds/>
+{'HREF': 'https://twilightstrategy.com/2012/03/13/independent-reds/', 'NAME': 'Independent Reds', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/03/16/marshall-plan/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/03/20/containment/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/03/20/containment/>
+{'HREF': 'https://twilightstrategy.com/2012/03/20/containment/', 'NAME': 'Containment', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/03/12/nato/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/03/12/nato/>
+{'HREF': 'https://twilightstrategy.com/2012/03/12/nato/', 'NAME': 'NATO', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '4', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/03/19/indo-pakistani-war/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/03/19/indo-pakistani-war/>
+{'HREF': 'https://twilightstrategy.com/2012/03/19/indo-pakistani-war/', 'NAME': 'Indo-Pakistani War', 'TIME': 'Early War', 'SIDE': 'Neutral', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/03/12/olympic-games/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/03/16/marshall-plan/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/03/16/marshall-plan/>
+{'HREF': 'https://twilightstrategy.com/2012/03/16/marshall-plan/', 'NAME': 'Marshall Plan', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '4', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2013/01/14/awacs-sale-to-saudis/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/03/02/truman-doctrine/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/03/12/olympic-games/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/03/12/olympic-games/>
+{'HREF': 'https://twilightstrategy.com/2012/03/12/olympic-games/', 'NAME': 'Olympic Games', 'TIME': 'Early War', 'SIDE': 'Neutral', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2013/01/10/yuri-and-samantha/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2013/01/14/awacs-sale-to-saudis/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2013/01/14/awacs-sale-to-saudis/>
+{'HREF': 'https://twilightstrategy.com/2013/01/14/awacs-sale-to-saudis/', 'NAME': 'AWACS Sale to\xa0Saudis', 'TIME': 'Late War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/03/02/truman-doctrine/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/03/02/truman-doctrine/>
+{'HREF': 'https://twilightstrategy.com/2012/03/02/truman-doctrine/', 'NAME': 'Truman Doctrine', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '1', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2013/01/10/yuri-and-samantha/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2013/01/10/yuri-and-samantha/>
+{'HREF': 'https://twilightstrategy.com/2013/01/10/yuri-and-samantha/', 'NAME': 'Yuri and Samantha', 'TIME': 'Late War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/28/our-man-in-tehran/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/28/our-man-in-tehran/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/28/our-man-in-tehran/>
+{'HREF': 'https://twilightstrategy.com/2012/11/28/our-man-in-tehran/', 'NAME': 'Our Man in\xa0Tehran', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/07/11/the-cambridge-five/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/07/18/special-relationship/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/07/25/norad/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/07/11/the-cambridge-five/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/07/11/the-cambridge-five/>
+{'HREF': 'https://twilightstrategy.com/2012/07/11/the-cambridge-five/', 'NAME': 'The Cambridge Five', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/07/18/special-relationship/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/07/18/special-relationship/>
+{'HREF': 'https://twilightstrategy.com/2012/07/18/special-relationship/', 'NAME': 'Special Relationship', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:17 [twilight2] INFO: Visited https://twilightstrategy.com/2012/07/25/norad/
+2017-05-22 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/07/25/norad/>
+{'HREF': 'https://twilightstrategy.com/2012/07/25/norad/', 'NAME': 'NORAD', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2013/01/04/pershing-ii-deployed/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2013/01/07/wargames/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/27/che/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2013/01/04/pershing-ii-deployed/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2013/01/04/pershing-ii-deployed/>
+{'HREF': 'https://twilightstrategy.com/2013/01/04/pershing-ii-deployed/', 'NAME': 'Pershing II Deployed', 'TIME': 'Late War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2013/01/07/wargames/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2013/01/07/wargames/>
+{'HREF': 'https://twilightstrategy.com/2013/01/07/wargames/', 'NAME': 'Wargames', 'TIME': 'Late War', 'SIDE': 'Neutral', 'OPS': '4', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/27/che/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/27/che/>
+{'HREF': 'https://twilightstrategy.com/2012/11/27/che/', 'NAME': 'Che', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2013/01/09/iran-iraq-war/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/21/an-evil-empire/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2013/01/03/aldrich-ames-remix/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2013/01/08/solidarity/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/20/tear-down-this-wall/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2013/01/09/iran-iraq-war/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2013/01/09/iran-iraq-war/>
+{'HREF': 'https://twilightstrategy.com/2013/01/09/iran-iraq-war/', 'NAME': 'Iran-Iraq War', 'TIME': 'Late War', 'SIDE': 'Neutral', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/19/latin-american-debt-crisis/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/21/an-evil-empire/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/21/an-evil-empire/>
+{'HREF': 'https://twilightstrategy.com/2012/12/21/an-evil-empire/', 'NAME': '“An Evil Empire”', 'TIME': 'Late War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2013/01/03/aldrich-ames-remix/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2013/01/03/aldrich-ames-remix/>
+{'HREF': 'https://twilightstrategy.com/2013/01/03/aldrich-ames-remix/', 'NAME': 'Aldrich Ames Remix', 'TIME': 'Late War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2013/01/08/solidarity/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2013/01/08/solidarity/>
+{'HREF': 'https://twilightstrategy.com/2013/01/08/solidarity/', 'NAME': 'Solidarity', 'TIME': 'Late War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/20/tear-down-this-wall/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/20/tear-down-this-wall/>
+{'HREF': 'https://twilightstrategy.com/2012/12/20/tear-down-this-wall/', 'NAME': 'Tear Down This\xa0Wall', 'TIME': 'Late War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/19/latin-american-debt-crisis/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/19/latin-american-debt-crisis/>
+{'HREF': 'https://twilightstrategy.com/2012/12/19/latin-american-debt-crisis/', 'NAME': 'Latin American Debt\xa0Crisis', 'TIME': 'Late War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/17/iran-contra-scandal/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/18/chernobyl/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/12/glasnost/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/17/iran-contra-scandal/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/17/iran-contra-scandal/>
+{'HREF': 'https://twilightstrategy.com/2012/12/17/iran-contra-scandal/', 'NAME': 'Iran-Contra Scandal', 'TIME': 'Late War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/18/chernobyl/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/18/chernobyl/>
+{'HREF': 'https://twilightstrategy.com/2012/12/18/chernobyl/', 'NAME': 'Chernobyl', 'TIME': 'Late War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/11/soviets-shoot-down-kal-007/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/12/glasnost/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/12/glasnost/>
+{'HREF': 'https://twilightstrategy.com/2012/12/12/glasnost/', 'NAME': 'Glasnost', 'TIME': 'Late War', 'SIDE': 'USSR', 'OPS': '4', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/14/terrorism/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/07/the-reformer/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/11/soviets-shoot-down-kal-007/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/11/soviets-shoot-down-kal-007/>
+{'HREF': 'https://twilightstrategy.com/2012/12/11/soviets-shoot-down-kal-007/', 'NAME': 'Soviets Shoot Down\xa0KAL-007', 'TIME': 'Late War', 'SIDE': 'US', 'OPS': '4', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/10/marine-barracks-bombing/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/13/ortega-elected-in-nicaragua/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/14/terrorism/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/14/terrorism/>
+{'HREF': 'https://twilightstrategy.com/2012/12/14/terrorism/', 'NAME': 'Terrorism', 'TIME': 'Mid War', 'SIDE': 'Neutral', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/07/the-reformer/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/07/the-reformer/>
+{'HREF': 'https://twilightstrategy.com/2012/12/07/the-reformer/', 'NAME': 'The Reformer', 'TIME': 'Late War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/10/marine-barracks-bombing/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/10/marine-barracks-bombing/>
+{'HREF': 'https://twilightstrategy.com/2012/12/10/marine-barracks-bombing/', 'NAME': 'Marine Barracks Bombing', 'TIME': 'Late War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/06/north-sea-oil/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:18 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/13/ortega-elected-in-nicaragua/
+2017-05-22 11:28:18 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/13/ortega-elected-in-nicaragua/>
+{'HREF': 'https://twilightstrategy.com/2012/12/13/ortega-elected-in-nicaragua/', 'NAME': 'Ortega Elected in\xa0Nicaragua', 'TIME': 'Late War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/06/north-sea-oil/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/06/north-sea-oil/>
+{'HREF': 'https://twilightstrategy.com/2012/12/06/north-sea-oil/', 'NAME': 'North Sea Oil', 'TIME': 'Late War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/03/the-iron-lady/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/05/star-wars/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/30/iranian-hostage-crisis/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/12/04/reagan-bombs-libya/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/08/15/regions-south-america/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/03/the-iron-lady/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/03/the-iron-lady/>
+{'HREF': 'https://twilightstrategy.com/2012/12/03/the-iron-lady/', 'NAME': 'The Iron Lady', 'TIME': 'Late War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/04/11/regions-africa/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/26/one-small-step/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/05/star-wars/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/05/star-wars/>
+{'HREF': 'https://twilightstrategy.com/2012/12/05/star-wars/', 'NAME': 'Star Wars', 'TIME': 'Late War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/30/iranian-hostage-crisis/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/30/iranian-hostage-crisis/>
+{'HREF': 'https://twilightstrategy.com/2012/11/30/iranian-hostage-crisis/', 'NAME': 'Iranian Hostage Crisis', 'TIME': 'Late War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/23/alliance-for-progress/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/12/04/reagan-bombs-libya/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/12/04/reagan-bombs-libya/>
+{'HREF': 'https://twilightstrategy.com/2012/12/04/reagan-bombs-libya/', 'NAME': 'Reagan Bombs Libya', 'TIME': 'Late War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/08/15/regions-south-america/
+2017-05-22 11:28:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://twilightstrategy.com/2012/08/15/regions-south-america/> (referer: https://twilightstrategy.com/card-list/)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 84, in parse_card
+    'TIME': extract_with_xpath('//div[@class="entry-content"]/p[3]/text()[1]'),
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 77, in extract_with_xpath
+    return response.xpath(query).extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/04/11/regions-africa/
+2017-05-22 11:28:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://twilightstrategy.com/2012/04/11/regions-africa/> (referer: https://twilightstrategy.com/card-list/)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 84, in parse_card
+    'TIME': extract_with_xpath('//div[@class="entry-content"]/p[3]/text()[1]'),
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 77, in extract_with_xpath
+    return response.xpath(query).extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/26/one-small-step/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/26/one-small-step/>
+{'HREF': 'https://twilightstrategy.com/2012/11/26/one-small-step/', 'NAME': '“One Small Step…”', 'TIME': 'Mid War', 'SIDE': 'Neutral', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/23/alliance-for-progress/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/23/alliance-for-progress/>
+{'HREF': 'https://twilightstrategy.com/2012/11/23/alliance-for-progress/', 'NAME': 'Alliance for Progress', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/14/sadat-expels-soviets/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/16/the-voice-of-america/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/13/nixon-plays-the-china-card/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/21/ask-not-what-your-country-can-do-for-you/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/19/liberation-theology/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/12/oas-founded/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/20/ussuri-river-skirmish/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/14/sadat-expels-soviets/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/14/sadat-expels-soviets/>
+{'HREF': 'https://twilightstrategy.com/2012/11/14/sadat-expels-soviets/', 'NAME': 'Sadat Expels Soviets', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '1', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/16/the-voice-of-america/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/16/the-voice-of-america/>
+{'HREF': 'https://twilightstrategy.com/2012/11/16/the-voice-of-america/', 'NAME': 'The Voice of\xa0America', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/15/shuttle-diplomacy/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/13/nixon-plays-the-china-card/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/13/nixon-plays-the-china-card/>
+{'HREF': 'https://twilightstrategy.com/2012/11/13/nixon-plays-the-china-card/', 'NAME': 'Nixon Plays the China\xa0Card', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/21/ask-not-what-your-country-can-do-for-you/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/21/ask-not-what-your-country-can-do-for-you/>
+{'HREF': 'https://twilightstrategy.com/2012/11/21/ask-not-what-your-country-can-do-for-you/', 'NAME': '“Ask Not What Your Country Can Do For You…”', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/19/liberation-theology/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/19/liberation-theology/>
+{'HREF': 'https://twilightstrategy.com/2012/11/19/liberation-theology/', 'NAME': 'Liberation Theology', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/12/oas-founded/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/12/oas-founded/>
+{'HREF': 'https://twilightstrategy.com/2012/11/12/oas-founded/', 'NAME': 'OAS Founded', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '1', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/20/ussuri-river-skirmish/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/20/ussuri-river-skirmish/>
+{'HREF': 'https://twilightstrategy.com/2012/11/20/ussuri-river-skirmish/', 'NAME': 'Ussuri River Skirmish', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:19 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/15/shuttle-diplomacy/
+2017-05-22 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/15/shuttle-diplomacy/>
+{'HREF': 'https://twilightstrategy.com/2012/11/15/shuttle-diplomacy/', 'NAME': 'Shuttle Diplomacy', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/06/puppet-governments/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/09/latin-american-death-squads/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/08/john-paul-ii-elected-pope/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/06/puppet-governments/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/06/puppet-governments/>
+{'HREF': 'https://twilightstrategy.com/2012/11/06/puppet-governments/', 'NAME': 'Puppet Governments', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/30/lone-gunman/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/07/grain-sales-to-soviets/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/05/camp-david-accords/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/02/panama-canal-returned/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/09/latin-american-death-squads/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/09/latin-american-death-squads/>
+{'HREF': 'https://twilightstrategy.com/2012/11/09/latin-american-death-squads/', 'NAME': 'Latin American Death\xa0Squads', 'TIME': 'Mid War', 'SIDE': 'Neutral', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/11/01/colonial-rear-guards/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/08/john-paul-ii-elected-pope/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/08/john-paul-ii-elected-pope/>
+{'HREF': 'https://twilightstrategy.com/2012/11/08/john-paul-ii-elected-pope/', 'NAME': 'John Paul II Elected\xa0Pope', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/30/lone-gunman/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/30/lone-gunman/>
+{'HREF': 'https://twilightstrategy.com/2012/10/30/lone-gunman/', 'NAME': 'Lone Gunman', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '1', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/07/grain-sales-to-soviets/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/07/grain-sales-to-soviets/>
+{'HREF': 'https://twilightstrategy.com/2012/11/07/grain-sales-to-soviets/', 'NAME': 'Grain Sales to\xa0Soviets', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/05/camp-david-accords/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/05/camp-david-accords/>
+{'HREF': 'https://twilightstrategy.com/2012/11/05/camp-david-accords/', 'NAME': 'Camp David Accords', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/02/panama-canal-returned/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/02/panama-canal-returned/>
+{'HREF': 'https://twilightstrategy.com/2012/11/02/panama-canal-returned/', 'NAME': 'Panama Canal Returned', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '1', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/11/01/colonial-rear-guards/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/11/01/colonial-rear-guards/>
+{'HREF': 'https://twilightstrategy.com/2012/11/01/colonial-rear-guards/', 'NAME': 'Colonial Rear Guards', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/26/u-2-incident/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/24/cultural-revolution/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/23/abm-treaty/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/29/opec/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/26/u-2-incident/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/26/u-2-incident/>
+{'HREF': 'https://twilightstrategy.com/2012/10/26/u-2-incident/', 'NAME': 'U-2 Incident', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/19/muslim-revolution/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/17/allende/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/24/cultural-revolution/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/24/cultural-revolution/>
+{'HREF': 'https://twilightstrategy.com/2012/10/24/cultural-revolution/', 'NAME': 'Cultural Revolution', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/23/abm-treaty/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/23/abm-treaty/>
+{'HREF': 'https://twilightstrategy.com/2012/10/23/abm-treaty/', 'NAME': 'ABM Treaty', 'TIME': 'Mid War', 'SIDE': 'Neutral', 'OPS': '4', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/29/opec/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/29/opec/>
+{'HREF': 'https://twilightstrategy.com/2012/10/29/opec/', 'NAME': 'OPEC', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/25/flower-power/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/19/muslim-revolution/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/19/muslim-revolution/>
+{'HREF': 'https://twilightstrategy.com/2012/10/19/muslim-revolution/', 'NAME': 'Muslim Revolution', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '4', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/17/allende/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/17/allende/>
+{'HREF': 'https://twilightstrategy.com/2012/10/17/allende/', 'NAME': 'Allende', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '1', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/18/willy-brandt/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/25/flower-power/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/25/flower-power/>
+{'HREF': 'https://twilightstrategy.com/2012/10/25/flower-power/', 'NAME': 'Flower Power', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '4', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:20 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/18/willy-brandt/
+2017-05-22 11:28:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/18/willy-brandt/>
+{'HREF': 'https://twilightstrategy.com/2012/10/18/willy-brandt/', 'NAME': 'Willy Brandt', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/12/brezhnev-doctrine/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/15/portuguese-empire-crumbles/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/10/we-will-bury-you/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/12/brezhnev-doctrine/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/12/brezhnev-doctrine/>
+{'HREF': 'https://twilightstrategy.com/2012/10/12/brezhnev-doctrine/', 'NAME': 'Brezhnev Doctrine', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/16/south-african-unrest/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/15/portuguese-empire-crumbles/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/15/portuguese-empire-crumbles/>
+{'HREF': 'https://twilightstrategy.com/2012/10/15/portuguese-empire-crumbles/', 'NAME': 'Portuguese Empire Crumbles', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/03/kitchen-debates/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/10/we-will-bury-you/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/10/we-will-bury-you/>
+{'HREF': 'https://twilightstrategy.com/2012/10/10/we-will-bury-you/', 'NAME': 'We Will Bury\xa0You', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '4', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/16/south-african-unrest/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/16/south-african-unrest/>
+{'HREF': 'https://twilightstrategy.com/2012/10/16/south-african-unrest/', 'NAME': 'South African Unrest', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/03/kitchen-debates/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/03/kitchen-debates/>
+{'HREF': 'https://twilightstrategy.com/2012/10/03/kitchen-debates/', 'NAME': 'Kitchen Debates', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '1', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/08/missile-envy/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/09/26/how-i-learned-to-stop-worrying/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/08/missile-envy/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/08/missile-envy/>
+{'HREF': 'https://twilightstrategy.com/2012/10/08/missile-envy/', 'NAME': 'Missile Envy', 'TIME': 'Mid War', 'SIDE': 'Neutral', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/09/26/how-i-learned-to-stop-worrying/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/09/26/how-i-learned-to-stop-worrying/>
+{'HREF': 'https://twilightstrategy.com/2012/09/26/how-i-learned-to-stop-worrying/', 'NAME': 'How I Learned to Stop\xa0Worrying', 'TIME': 'Mid War', 'SIDE': 'Neutral', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/09/19/bear-trap/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/09/17/salt-negotiations/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/09/19/bear-trap/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/09/19/bear-trap/>
+{'HREF': 'https://twilightstrategy.com/2012/09/19/bear-trap/', 'NAME': 'Bear Trap', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/09/24/summit/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/09/17/salt-negotiations/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/09/17/salt-negotiations/>
+{'HREF': 'https://twilightstrategy.com/2012/09/17/salt-negotiations/', 'NAME': 'SALT Negotiations', 'TIME': 'Mid War', 'SIDE': 'Neutral', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/09/24/summit/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/09/24/summit/>
+{'HREF': 'https://twilightstrategy.com/2012/09/24/summit/', 'NAME': 'Summit', 'TIME': 'Mid War', 'SIDE': 'Neutral', 'OPS': '1', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/09/10/nuclear-subs/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/09/12/quagmire/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/09/04/regions-southeast-asia/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/09/10/nuclear-subs/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/09/10/nuclear-subs/>
+{'HREF': 'https://twilightstrategy.com/2012/09/10/nuclear-subs/', 'NAME': 'Nuclear Subs', 'TIME': 'Mid War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/09/06/cuban-missile-crisis/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/09/12/quagmire/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/09/12/quagmire/>
+{'HREF': 'https://twilightstrategy.com/2012/09/12/quagmire/', 'NAME': 'Quagmire', 'TIME': 'Mid War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/09/05/arms-race/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/09/04/regions-southeast-asia/
+2017-05-22 11:28:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://twilightstrategy.com/2012/09/04/regions-southeast-asia/> (referer: https://twilightstrategy.com/card-list/)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 84, in parse_card
+    'TIME': extract_with_xpath('//div[@class="entry-content"]/p[3]/text()[1]'),
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 77, in extract_with_xpath
+    return response.xpath(query).extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/09/06/cuban-missile-crisis/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/09/06/cuban-missile-crisis/>
+{'HREF': 'https://twilightstrategy.com/2012/09/06/cuban-missile-crisis/', 'NAME': 'Cuban Missile Crisis', 'TIME': 'Mid War', 'SIDE': 'Neutral', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/01/junta/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/09/05/arms-race/
+2017-05-22 11:28:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/09/05/arms-race/>
+{'HREF': 'https://twilightstrategy.com/2012/09/05/arms-race/', 'NAME': 'Arms Race', 'TIME': 'Mid War', 'SIDE': 'Neutral', 'OPS': '3', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/09/04/regions-central-america/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/09/04/brush-war/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:21 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/01/junta/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/10/01/junta/>
+{'HREF': 'https://twilightstrategy.com/2012/10/01/junta/', 'NAME': 'Junta', 'TIME': 'Mid War', 'SIDE': 'Neutral', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/07/09/defectors/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/07/02/formosan-resolution/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/06/11/nuclear-test-ban/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2012/09/04/regions-central-america/
+2017-05-22 11:28:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://twilightstrategy.com/2012/09/04/regions-central-america/> (referer: https://twilightstrategy.com/card-list/)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 84, in parse_card
+    'TIME': extract_with_xpath('//div[@class="entry-content"]/p[3]/text()[1]'),
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 77, in extract_with_xpath
+    return response.xpath(query).extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2012/09/04/brush-war/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/09/04/brush-war/>
+{'HREF': 'https://twilightstrategy.com/2012/09/04/brush-war/', 'NAME': 'Brush War', 'TIME': 'Mid War', 'SIDE': 'Neutral', 'OPS': '3', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2012/07/09/defectors/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/07/09/defectors/>
+{'HREF': 'https://twilightstrategy.com/2012/07/09/defectors/', 'NAME': 'Defectors', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2012/07/02/formosan-resolution/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/07/02/formosan-resolution/>
+{'HREF': 'https://twilightstrategy.com/2012/07/02/formosan-resolution/', 'NAME': 'Formosan Resolution', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2012/06/11/nuclear-test-ban/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/06/11/nuclear-test-ban/>
+{'HREF': 'https://twilightstrategy.com/2012/06/11/nuclear-test-ban/', 'NAME': 'Nuclear Test Ban', 'TIME': 'Early War', 'SIDE': 'Neutral', 'OPS': '4', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/02/20/warsaw-pact-formed/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/02/27/captured-nazi-scientist/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://lolthisaintworkinghaaaa.com> (failed 2 times): DNS lookup failed: no results for hostname lookup: lolthisaintworkinghaaaa.com.
+2017-05-22 11:28:22 [scrapy.downloadermiddlewares.retry] DEBUG: Gave up retrying <GET http://lolthisaintworkinghaaaa.com> (failed 3 times): DNS lookup failed: no results for hostname lookup: lolthisaintworkinghaaaa.com.
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/02/24/de-gaulle-leads-france/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/02/06/nasser/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/01/24/comecon/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2012/02/20/warsaw-pact-formed/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/02/20/warsaw-pact-formed/>
+{'HREF': 'https://twilightstrategy.com/2012/02/20/warsaw-pact-formed/', 'NAME': 'Warsaw Pact Formed', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/01/02/romanian-abdication/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2012/02/27/captured-nazi-scientist/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/02/27/captured-nazi-scientist/>
+{'HREF': 'https://twilightstrategy.com/2012/02/27/captured-nazi-scientist/', 'NAME': 'Captured Nazi Scientist', 'TIME': 'Early War', 'SIDE': 'Neutral', 'OPS': '1', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:22 [twilight2] ERROR: <twisted.python.failure.Failure twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: lolthisaintworkinghaaaa.com.>
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from DNS lookup failed: no results for hostname lookup: lolthisaintworkinghaaaa.com.
+{'FAILMSG': '<twisted.python.failure.Failure twisted.internet.error.DNSLookupError: DNS lookup failed: no results for hostname lookup: lolthisaintworkinghaaaa.com.>'}
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2012/02/24/de-gaulle-leads-france/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/02/24/de-gaulle-leads-france/>
+{'HREF': 'https://twilightstrategy.com/2012/02/24/de-gaulle-leads-france/', 'NAME': 'De Gaulle Leads\xa0France', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2012/02/06/nasser/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/02/06/nasser/>
+{'HREF': 'https://twilightstrategy.com/2012/02/06/nasser/', 'NAME': 'Nasser', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '1', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2012/01/24/comecon/
+2017-05-22 11:28:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://twilightstrategy.com/2012/01/24/comecon/> (referer: https://twilightstrategy.com/card-list/)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 85, in parse_card
+    'SIDE': extract_with_xpath('//div[@class="entry-content"]/p[3]/text()[3]'),
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 77, in extract_with_xpath
+    return response.xpath(query).extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2012/01/02/romanian-abdication/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2012/01/02/romanian-abdication/>
+{'HREF': 'https://twilightstrategy.com/2012/01/02/romanian-abdication/', 'NAME': 'Romanian Abdication', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '1', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2011/12/25/korean-war/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2011/12/13/socialist-governments/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2011/12/14/fidel/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2011/12/19/blockade/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/01/16/arab-israeli-war/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2011/12/16/vietnam-revolts/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/10/31/the-china-card/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2011/12/25/korean-war/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2011/12/25/korean-war/>
+{'HREF': 'https://twilightstrategy.com/2011/12/25/korean-war/', 'NAME': 'Korean War', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2011/12/13/socialist-governments/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2011/12/13/socialist-governments/>
+{'HREF': 'https://twilightstrategy.com/2011/12/13/socialist-governments/', 'NAME': 'Socialist Governments', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '3', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2011/12/14/fidel/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2011/12/14/fidel/>
+{'HREF': 'https://twilightstrategy.com/2011/12/14/fidel/', 'NAME': 'Fidel', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:22 [twilight2] INFO: Visited https://twilightstrategy.com/2011/12/19/blockade/
+2017-05-22 11:28:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2011/12/19/blockade/>
+{'HREF': 'https://twilightstrategy.com/2011/12/19/blockade/', 'NAME': 'Blockade', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '1', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:23 [twilight2] INFO: Visited https://twilightstrategy.com/2012/01/16/arab-israeli-war/
+2017-05-22 11:28:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://twilightstrategy.com/2012/01/16/arab-israeli-war/> (referer: https://twilightstrategy.com/card-list/)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 85, in parse_card
+    'SIDE': extract_with_xpath('//div[@class="entry-content"]/p[3]/text()[3]'),
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 77, in extract_with_xpath
+    return response.xpath(query).extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-22 11:28:23 [twilight2] INFO: Visited https://twilightstrategy.com/2011/12/16/vietnam-revolts/
+2017-05-22 11:28:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2011/12/16/vietnam-revolts/>
+{'HREF': 'https://twilightstrategy.com/2011/12/16/vietnam-revolts/', 'NAME': 'Vietnam Revolts', 'TIME': 'Early War', 'SIDE': 'USSR', 'OPS': '2', 'REMOVED': 'Yes', 'FAILMSG': ''}
+2017-05-22 11:28:23 [twilight2] INFO: Visited https://twilightstrategy.com/2012/10/31/the-china-card/
+2017-05-22 11:28:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://twilightstrategy.com/2012/10/31/the-china-card/> (referer: https://twilightstrategy.com/card-list/)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 85, in parse_card
+    'SIDE': extract_with_xpath('//div[@class="entry-content"]/p[3]/text()[3]'),
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 77, in extract_with_xpath
+    return response.xpath(query).extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-22 11:28:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2011/12/12/five-year-plan/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2011/12/12/duck-and-cover/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2012/02/13/regions-middle-east/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://twilightstrategy.com/2011/12/12/regions-europe/> (referer: https://twilightstrategy.com/card-list/)
+2017-05-22 11:28:23 [twilight2] INFO: Visited https://twilightstrategy.com/2011/12/12/five-year-plan/
+2017-05-22 11:28:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2011/12/12/five-year-plan/>
+{'HREF': 'https://twilightstrategy.com/2011/12/12/five-year-plan/', 'NAME': 'Five Year Plan', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:23 [twilight2] INFO: Visited https://twilightstrategy.com/2011/12/12/duck-and-cover/
+2017-05-22 11:28:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://twilightstrategy.com/2011/12/12/duck-and-cover/>
+{'HREF': 'https://twilightstrategy.com/2011/12/12/duck-and-cover/', 'NAME': 'Duck and Cover', 'TIME': 'Early War', 'SIDE': 'US', 'OPS': '3', 'REMOVED': 'No', 'FAILMSG': ''}
+2017-05-22 11:28:23 [twilight2] INFO: Visited https://twilightstrategy.com/2012/02/13/regions-middle-east/
+2017-05-22 11:28:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://twilightstrategy.com/2012/02/13/regions-middle-east/> (referer: https://twilightstrategy.com/card-list/)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 84, in parse_card
+    'TIME': extract_with_xpath('//div[@class="entry-content"]/p[3]/text()[1]'),
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 77, in extract_with_xpath
+    return response.xpath(query).extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-22 11:28:23 [twilight2] INFO: Visited https://twilightstrategy.com/2011/12/12/regions-europe/
+2017-05-22 11:28:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://twilightstrategy.com/2011/12/12/regions-europe/> (referer: https://twilightstrategy.com/card-list/)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 84, in parse_card
+    'TIME': extract_with_xpath('//div[@class="entry-content"]/p[3]/text()[1]'),
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\twilightstrategy\twilightstrategy\spiders\twilight_spider2.py", line 77, in extract_with_xpath
+    return response.xpath(query).extract_first().strip()
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-22 11:28:23 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-05-22 11:28:23 [scrapy.extensions.feedexport] INFO: Stored csv feed (101 items) in: cuteger8.csv
+2017-05-22 11:28:23 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 6,
+ 'downloader/exception_type_count/twisted.internet.error.DNSLookupError': 6,
+ 'downloader/request_bytes': 34366,
+ 'downloader/request_count': 118,
+ 'downloader/request_method_count/GET': 118,
+ 'downloader/response_bytes': 2516760,
+ 'downloader/response_count': 112,
+ 'downloader/response_status_count/200': 112,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 5, 22, 3, 28, 23, 501665),
+ 'item_scraped_count': 101,
+ 'log_count/DEBUG': 220,
+ 'log_count/ERROR': 12,
+ 'log_count/INFO': 118,
+ 'request_depth_max': 1,
+ 'response_received_count': 112,
+ 'retry/count': 4,
+ 'retry/max_reached': 2,
+ 'retry/reason_count/twisted.internet.error.DNSLookupError': 4,
+ 'scheduler/dequeued': 114,
+ 'scheduler/dequeued/memory': 114,
+ 'scheduler/enqueued': 114,
+ 'scheduler/enqueued/memory': 114,
+ 'spider_exceptions/AttributeError': 10,
+ 'start_time': datetime.datetime(2017, 5, 22, 3, 28, 13, 794282)}
+2017-05-22 11:28:23 [scrapy.core.engine] INFO: Spider closed (finished)

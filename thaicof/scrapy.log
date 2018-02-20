@@ -1,0 +1,351 @@
+2017-05-25 20:18:55 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: thaicof)
+2017-05-25 20:18:55 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'thaicof', 'FEED_FORMAT': 'csv', 'FEED_URI': 'spidergod.csv', 'LOG_FILE': 'scrapy.log', 'NEWSPIDER_MODULE': 'thaicof.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['thaicof.spiders']}
+2017-05-25 20:18:56 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2017-05-25 20:18:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-05-25 20:18:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-05-25 20:18:56 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-05-25 20:18:56 [scrapy.core.engine] INFO: Spider opened
+2017-05-25 20:18:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-05-25 20:18:56 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-05-25 20:18:56 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.thailandcoffee.net/robots.txt> (referer: None)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/exhibiting2017> (referer: None)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/10> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/10>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/10', 'NAME': '555 Paperplus Co.,Ltd.', 'EMAIL': 'marketing@555paperplus.com', 'DESC': '555 paperplus Co,.Ltd. is a manufacturer and wholesaler specialized in paper packaging, such as gift boxes. bakery boxes etc. Our products are not only wiht various fashioned styles but also with competitive price, for more information,', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/80> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/83> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/87> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/85> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/90> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/92> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/82> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/84> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/80>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/80', 'NAME': 'MARVICE (THAI) CO.,LTD.', 'EMAIL': 'marvicepagingsystem@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/83>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/83', 'NAME': 'KOKORO BEVERAGE CO.,LTD.', 'EMAIL': 'ann_kaijeaw@yahoo.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/87>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/87', 'NAME': 'N2Ice Co.,Ltd.', 'EMAIL': 'nimnicha@yahoo.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/78> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/85>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/85', 'NAME': 'Nude Coffee', 'EMAIL': 'nudeorganicthailand@gmail.com', 'DESC': 'ผลิตภัณฑ์ NUDE ORGANIC ภายใต้การผลิตและจัดจำหน่ายโดย บริษัท สุขมหาศาล จำกัด ก่อตั้งขึ้นตั้งแต่ปีพศ. 2557 ภายใต้ Concept ที่ว่า ทุกผลิตภัณฑ์ต้องมีคุณภาพและรสชาติดี โดยเน้นการดึงคาแรกเตอร์ที่ดีที่สุดของวัตถุดิบนั้นๆ และที่สำคัญต้องไร้สารเคมี', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/77> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/54> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/235> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/79> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/90>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/90', 'NAME': 'Zen Sprout Co.,Ltd.', 'EMAIL': 'zensproutcompany@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/92>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/92', 'NAME': 'GOLDEN NINE CO.,LTD', 'EMAIL': 'wanutsabaudee@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/34> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/33> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/51> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/82>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/82', 'NAME': 'Presto X Rabbit', 'EMAIL': 'sales@rabbitroaster.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/84>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/84', 'NAME': 'Outlet 108 Co.,Ltd.', 'EMAIL': 'mngm@supertv.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/78>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/78', 'NAME': 'Snowboy 1990 (Thailand) Co.,Ltd.', 'EMAIL': 'info@snowboy1990.com', 'DESC': 'is one of the leading ice cream supplier in Thailand who supplies high quality ice cream machine and premium soft serve premix from New Zealand and Australia.', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/265> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/77>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/77', 'NAME': 'Bakery Depot', 'EMAIL': 'bakerydepotshop@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/54>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/54', 'NAME': 'AM Bakery', 'EMAIL': 'rasuwat@yahoo.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/235>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/235', 'NAME': 'TakraOnline (Vevo Systems Co., Ltd.)', 'EMAIL': 'sales@takraonline.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/79>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/79', 'NAME': 'Bico', 'EMAIL': 'bicocafe@outlook.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/264> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/263> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/256> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/261> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/34>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/34', 'NAME': 'ETON STANDARD CO.,LTD', 'EMAIL': 'eton_standard2005@yahoo.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/257> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/262> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/254> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/33>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/33', 'NAME': 'Sabuysabuy Bakery Supplier', 'EMAIL': 'sabuysabuy55@hotmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/51>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/51', 'NAME': 'SULBING (THAILAND) Co.,Ltd', 'EMAIL': 'sulbingthailand@sulbing.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/265>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/265', 'NAME': 'Bangchak Retail Co., Ltd.', 'EMAIL': 'somyot@bangchakretail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/264>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/264', 'NAME': 'Gaveon Co., Ltd.', 'EMAIL': 'oshwang@naver.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/263> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\thaicof\thaicof\spiders\thaicof.py", line 31, in parse_product
+    'EMAIL': response.xpath('//span[@class="red"]/text()').extract_first().strip(),
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/253> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/256>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/256', 'NAME': 'Intercof 1978 Group Co.,Ltd.', 'EMAIL': 'baristasfriend@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/261>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/261', 'NAME': 'Doi Chaang Franchise Management Company Limited', 'EMAIL': 'jarern@doichaangcoffee.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/257>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/257', 'NAME': 'K2 Company Ltd.', 'EMAIL': 'sales@k2.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/262>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/262', 'NAME': 'Material World Co.,Ltd.', 'EMAIL': 'sales@materialworld.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/254>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/254', 'NAME': 'CAFFA Coffee Maker', 'EMAIL': 'ekkasit_b@yahoo.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/248> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/247> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/243> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/241> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/245> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/252> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/242> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/240> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/253> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+Traceback (most recent call last):
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\darren\anaconda3\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Users\Darren\Desktop\Workspace\myScrapy\thaicof\thaicof\spiders\thaicof.py", line 31, in parse_product
+    'EMAIL': response.xpath('//span[@class="red"]/text()').extract_first().strip(),
+AttributeError: 'NoneType' object has no attribute 'strip'
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/238> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/248>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/248', 'NAME': 'Fruittara Trading (Thailand) Co.,Ltd.', 'EMAIL': 'jsfruittara@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/247>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/247', 'NAME': 'ISM FOOD PRODUCTS CO.,LTD', 'EMAIL': 'warin@ism-food.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/237> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/243>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/243', 'NAME': 'MMP Corporation Co.,Ltd.', 'EMAIL': 'kirapol.k@mmpcorp.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/230> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/241>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/241', 'NAME': 'Vagaso Co.,Ltd.', 'EMAIL': 'info@vagaso.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/236> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/245>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/245', 'NAME': 'Extra Big Sale Co.,Ltd.', 'EMAIL': 'exb_oui@hotmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/252>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/252', 'NAME': 'Zhucheng Dongxiao Biotechnology Co., Ltd.', 'EMAIL': 'mark.liu@dongxiao.net', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/242>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/242', 'NAME': 'Shiwa Corporation Limited', 'EMAIL': 'contact@shiwa.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/240>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/240', 'NAME': 'GFA Corporation (Thailand) Ltd.', 'EMAIL': 'th.bd@gfacorp.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/217> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/228> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/238>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/238', 'NAME': 'Mintana Company Limited', 'EMAIL': 'info@mintana.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/214> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/227> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/223> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/237>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/237', 'NAME': 'Maruzen Food (Thailand) Co., LTD.', 'EMAIL': 'maneepan_c@boonrawd.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/211> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/209> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/208> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/230>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/230', 'NAME': 'Chaiyakarn Pack Co.,Ltd.', 'EMAIL': 'hornboycup@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/236>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/236', 'NAME': 'UCC UESHIMA COFFEE (THAILAND)', 'EMAIL': 'Wirada@uccthai.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/206> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/203> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/217>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/217', 'NAME': 'กาแฟสดไร่ช่อลดา', 'EMAIL': 'cholada_coffee@hotmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/202> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/228>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/228', 'NAME': 'Ohmycake', 'EMAIL': 'ohmycake.cafe@gmail.com', 'DESC': 'ร้าน Ohmycake จำหน่ายอุปกรณ์ฟองดอง แผ่นซิลิโคนสำหรับรองรีด ไม้รีดฟองดอง แม่พิมพ์ซิลิโคนหลากหลายรูปแบบสำหรับงานฟองดอง ตัวตัดคุ๊กกี้น่ารักๆ กล่องเค้กทรงสูงสำหรับใส่เค้กบาร์บี้ มีคอร์สอบรบการทำเค้กฟองดองสำหรับผู้สนใจ สินค้าทุกชิ้นมีทั้งแบบขายปลีกและขายส่งสำหรับร้านค้าต่างๆ ที่ต้องการนำสินค้าไปลงในร้านเพิ่มเติม', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/214>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/214', 'NAME': 'Golden Elephant (Thailand)  Co., Ltd.', 'EMAIL': 'eng37_psu@hotmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/227>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/227', 'NAME': 'Cococream', 'EMAIL': 'Rattakhet2012@hotmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/223>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/223', 'NAME': 'Thai Roong Ruang Sugar Group', 'EMAIL': 'sales@trrsugarcorp.com', 'DESC': 'เป็นหนึ่งในผู้ผลิตน้ำตาลชั้นนำในประเทศไทยกว่า 65 ปี การผลิตน้ำตาลของเราได้จากอ้อยที่มีคุณภาพและกระบวนการผลิตที่มีคุณภาพ ซึ่งได้รับการยอมรับจากทั่วโลก ภายใต้แบรนด์ ลิน โดยมีผลิตภัณฑ์ที่หลากหลาย เช่น น้ำตาลทราย,น้ำตาลเบเกอรี,น้ำตาลทองธรรมชาติ,น้ำตาลไอซิ่ง, น้ำตาลซองธรรมชาติ, น้ำตาลกรวด, กลิ่นคาราเมล,น้ำเชื่อมกลิ่นคาราเมล,เฮเซลนัท,วานิลา และน้ำเชื่อมกลิ่นผลไม้ Fondant Icing (น้ำตาลปั้น)', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/200> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/177> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/194> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/199> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/178> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/211>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/211', 'NAME': 'PHITPHISARN CO.,LTD', 'EMAIL': 'wimolphan@phitphisarngroup.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/209>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/209', 'NAME': 'i-Cream Solutions.Co.,Ltd', 'EMAIL': 'info@i-creamsolutions.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/208>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/208', 'NAME': 'Shimono (Thailand) Co.,Ltd.', 'EMAIL': 'thailandshimono@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/174> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/206>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/206', 'NAME': 'Kafair Nan', 'EMAIL': 'coffee_nan@hotmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/173> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/203>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/203', 'NAME': 'Bangkok Beer & Beverages Co., Ltd. (BB&B)', 'EMAIL': 'info@bbb.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/202>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/202', 'NAME': 'KITCHEN CLASS (1993) CO.,LTD.', 'EMAIL': 'supat.m@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/200>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/200', 'NAME': 'Mitr Phol Sugar', 'EMAIL': 'kittipatn@mitrphol.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/177>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/177', 'NAME': 'Kadang Coffee', 'EMAIL': 'info@kadangcoffee.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/194>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/194', 'NAME': 'VPP GROUP', 'EMAIL': 'caffe.d.oro@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/199>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/199', 'NAME': 'Copper Crown Co.,Ltd.', 'EMAIL': 'jakrin@coppercrown.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/178>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/178', 'NAME': 'Sweet Solution Co., Ltd.', 'EMAIL': 'contact@psisugar.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/174>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/174', 'NAME': 'Wongnai Media Co.,Ltd.', 'EMAIL': 'info@wongnai.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/172> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/173>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/173', 'NAME': 'CRG Manufacturing Co.,Ltd.', 'EMAIL': 'crgm@crg.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/159> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/170> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/164> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/161> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/155> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/154> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/157> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/152> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/172>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/172', 'NAME': 'Maxxbiil fresh coffee Co.,Ltd.', 'EMAIL': 'CSR.BLGROUP@GMAIL.COM', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/159>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/159', 'NAME': 'Echo Good Food', 'EMAIL': '', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/170>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/170', 'NAME': 'Mable Home Co.,Ltd.', 'EMAIL': 'maplehome.info@gmail.com', 'DESC': 'Farmer’s grain granola is baked grains filled with nutrients which consists of oats, almonds, and maple syrup. Maple syrup that we use is a natural sweetener from maple tree for the irresistible aroma and taste. With all natural ingredients carefully made batch by batch to ensure that you will enjoy our granola for snacking purpose, dairy products, salads, and even ice-cream! We’re interesting to find partner for distributing all over Thailand contact us 080-495-2664 or line ID : FARMERSGRAINBKK / Facebook : FARMERSGRAINBKK', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/164>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/164', 'NAME': 'SUGAHUT TRADING CO.,LTD', 'EMAIL': 'sugahutthai@hotmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/150> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/161>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/161', 'NAME': 'Patana Intercool Co.,Ltd.', 'EMAIL': 'marketing.patana@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/155>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/155', 'NAME': 'Daiseiko(Thailand) Co., Ltd', 'EMAIL': 'sitthinan@daiseiko.co.th', 'DESC': 'Daiseiko(Thailand) Co., Ltd., we are ther leader of Bakery raw material supply, directly to customer over Country including neighbor Country, covering Bakery factory, Bakery shop, Hotel, Restaurant, Catering (HORECA)', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/154>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/154', 'NAME': 'Take A Bread', 'EMAIL': 'goods9595@gmial.com', 'DESC': 'Manufacturer and retailer', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/149> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/157>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/157', 'NAME': 'Synova', 'EMAIL': 'th.sale@synovafoods.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/144> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/128> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/129> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/142> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/127> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/143> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/152>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/152', 'NAME': 'Unicorn (Thailand) Co.,Ltd.', 'EMAIL': 'service@ocha.in.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/150>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/150', 'NAME': 'Charpaktai', 'EMAIL': 'charpaktai.th@hotmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/126> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/149>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/149', 'NAME': 'J.B.U (Thailand) Co., Ltd.', 'EMAIL': 'jbuthailand@gmail.com', 'DESC': 'Is a distributor and imported on food and beverage suck as cylinder whipping cream (MOSA) \xa0gas for whipping cream cylinder, whipping cream powder, blender, smooties powder etc. The products are imported from Taiwan', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/144>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/144', 'NAME': 'Power Stainless Steel Co.,Ltd.', 'EMAIL': 'sales-pss@hotmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/128>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/128', 'NAME': 'Liang Hong Co.,Ltd', 'EMAIL': 'pornrirk@truemail.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/125> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/129>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/129', 'NAME': 'Thiptanaporn Co.,Ltd.', 'EMAIL': 'contact@thiptanaporn.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/142>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/142', 'NAME': 'CP MEIJI', 'EMAIL': 'Thanyaprapa.t@cpmeiji.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/127>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/127', 'NAME': 'Reangwa Standard Industry Co., Ltd.', 'EMAIL': 'thanarat@reangwa.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/143>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/143', 'NAME': 'COCO BINGS INTERNATIONAL CO.,LTD.', 'EMAIL': 'cocobings@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/123> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/115> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/126>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/126', 'NAME': 'Coffman International Co.,Ltd.', 'EMAIL': 'raksit.cmi@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/116> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/119> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/114> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/113> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/125>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/125', 'NAME': 'Ebisu Foods Co., Ltd.', 'EMAIL': 'Thanasak@ebisufoods.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/112> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/123>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/123', 'NAME': 'Quolitat (Thailand) Co.,Ltd.', 'EMAIL': 'sales@qualitat.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/111> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/105> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/110> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/115>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/115', 'NAME': 'Espresso Man Supply Co.,Ltd.', 'EMAIL': 'info@espressoman.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/116>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/116', 'NAME': 'K.C.L.TRADING CO.,LTD.', 'EMAIL': 'chandetk@kcltranding.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/101> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/104> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/119>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/119', 'NAME': 'THAI SCALE CO., LTD.', 'EMAIL': 'thaiscale@outlook.com', 'DESC': 'Is a manufacturer of weighing scales leading distributor of all  kinds.', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/93> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.thailandcoffee.net/2017/exhibit/online_match2017/98> (referer: http://www.thailandcoffee.net/2017/exhibit/exhibiting2017)
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/114>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/114', 'NAME': 'Penkhun Co.,Ltd.', 'EMAIL': 'punyawee@elvira.co.th', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/113>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/113', 'NAME': 'Peaberry.Co.Ltd', 'EMAIL': 'info@espressofriend.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/112>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/112', 'NAME': 'ฺฺBillion Coffee', 'EMAIL': 'BillionCoffeeGroup@gmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/111>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/111', 'NAME': 'CARAMELLO', 'EMAIL': 'ultrant@hotmail.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/105>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/105', 'NAME': 'Central Trading Co.,Ltd.', 'EMAIL': 'ornuma@cmg.co.th', 'DESC': 'Central\xa0 Marketing Group (CMG) is a leder with core competencies in the fields of distributing and imported of electronic cash register and E-POS.We are the sole agent or authorized distributor for Thailand.', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/110>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/110', 'NAME': 'MCK mini trailer', 'EMAIL': 'marketmck@meechoke.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/101>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/101', 'NAME': 'Newton Food Equipment Co., Ltd.', 'EMAIL': 'sales@newton-ice.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/104>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/104', 'NAME': 'Heritage Snacks & Food co., Ltd', 'EMAIL': 'contact@heritagethailand.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/93>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/93', 'NAME': 'NLCOFFEE TRADING Co.,Ltd.', 'EMAIL': 'a_arts@msn.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.thailandcoffee.net/2017/exhibit/online_match2017/98>
+{'HREF': 'http://www.thailandcoffee.net/2017/exhibit/online_match2017/98', 'NAME': 'HOTEL AND HOME INNOVATION CO.,LTD', 'EMAIL': 'purchase02@homeinnovation-asia.com', 'DESC': '', 'DATE_SCRAPED': "'2017-05-25", 'FAILMSG': ''}
+2017-05-25 20:18:59 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-05-25 20:18:59 [scrapy.extensions.feedexport] INFO: Stored csv feed (87 items) in: spidergod.csv
+2017-05-25 20:18:59 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 67832,
+ 'downloader/request_count': 91,
+ 'downloader/request_method_count/GET': 91,
+ 'downloader/response_bytes': 1893408,
+ 'downloader/response_count': 91,
+ 'downloader/response_status_count/200': 90,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 5, 25, 12, 18, 59, 280651),
+ 'item_scraped_count': 87,
+ 'log_count/DEBUG': 179,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 91,
+ 'scheduler/dequeued': 90,
+ 'scheduler/dequeued/memory': 90,
+ 'scheduler/enqueued': 90,
+ 'scheduler/enqueued/memory': 90,
+ 'spider_exceptions/AttributeError': 2,
+ 'start_time': datetime.datetime(2017, 5, 25, 12, 18, 56, 372119)}
+2017-05-25 20:18:59 [scrapy.core.engine] INFO: Spider closed (finished)

@@ -1,0 +1,657 @@
+email
+"﻿<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+    <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+    <title>404 Error - Page Not Found</title>
+    <link rel=""stylesheet"" type=""text/css"" href=""/_css/system.css"" />
+</head>
+<body>
+    <form id=""form1"" runat=""server"">
+    <div>
+        <div class=""global_wrapper"">
+            <div id=""JSheader"">
+            </div>
+            <!-- Paster your page content below -->
+            <div id=""mainbody"">
+                <div id=""error404"">
+                    <div class=""sectionWrapper"">
+                        <div class=""magnifyingGlass"">
+                            <img src=""/_images/system/maginify-glass.png"" alt= width=""349"" height=""434"" /></div>
+                        <div class=""clearFix"">
+                            <h2>
+                                Oops! PAGE NOT FOUND</h2>
+                            <h5>
+                                Sorry. The page that you are looking for :
+                            </h5>
+                            <ul>
+                                <li>May have moved or been re-named</li>
+                                <li>May have been deleted</li>
+                                <li>May never existed at all (perhaps it was all just a dream)</li>
+                            </ul>
+                        </div>
+                        <div class=""clearFix"">
+                            <div class=""left"">
+                                <h3>
+                                    Feedback to us</h3>
+                                <h5>
+                                    Please tell us what you are looking for :
+                                </h5>
+                                <p>
+                                    Thanks for your feedback and we appreciate your effort.</p>
+                            </div>
+                            <div class=""right"">
+                                <textarea id=""txtFeedback"" cols=""30"" rows=""3""></textarea>
+                                <input id=""btnfeedback"" name=""Submit"" type=""submit"" value=""Submit"" />
+                            </div>
+                        </div>
+                        <!--<div class=""clearFix last"">
+        <h4>Search from here</h4>
+        <h5>Try our specific search panel to get what you looking for : </h5>
+        <div class=""searchBox"">
+          <fieldset>
+            <input type=""text"" onFocus=""if(this.value=='Search &hellip;')this.value=''"" onBlur=""if(this.value=='')this.value='Search &hellip;'"" value=""Search &hellip;"" class=""autoComplete""/>
+            <button name="""" type=""submit""><img src=""/_images/icons-buttons/search-75x23.jpg"" width=""75"" height=""23"" alt=""Search Button"" /></button>
+          </fieldset>
+          <ul class=""sourceType"">
+            <li>
+              <input name=""searchOption"" type=""radio"" value=""productService"" checked=""checked"" />
+              <label>Product &amp; Service</label></li>
+            <li>
+              <input name=""searchOption"" type=""radio"" value=""brandName"" />
+              <label>Brand Name</label></li>
+            <li>
+              <input name=""searchOption"" type=""radio"" value=""companyName"" />
+             <label> Company Name</label></li>
+            <li>
+              <input name=""searchOption"" type=""radio"" value=""telFax"" />
+              <label>Telephone & Fax</label></li>
+          </ul>
+        </div>
+      </div>-->
+                    </div>
+                    <div class=""clearFix"">
+                        <div class=""content first"">
+                            <h3>
+                                Quick Links</h3>
+                            <ul>
+                                <li><a href=""/"">Home</a></li>
+                                <li><a href=""/static_pages/about-us.html"">About Us</a></li>
+                                <li><a href=""/static_pages/our-product/our-products.html"">Our Product</a> <sup>new</sup></li>
+                                <li><a href=""/static_pages/features/print/feature-printed-tgb-book.html"">Feature</a>
+                                    <sup>new</sup></li>
+                                <li><a href=""/static_pages/our-services/website-development.html"">Our Services</a> <sup>
+                                    new</sup></li>
+                                <li><a href=""/static_pages/our-portfolio/biz-starter-1.html"">Our Portfolio</a> <sup>
+                                    new</sup></li>
+                                <li><a href=""/static_pages/our-partners.html"">Our Partner</a></li>
+                                <li><a href=""/faq.aspx"">FAQs</a></li>
+                                <li><a href=""/static_pages/testimonial-letters.html"">Testimonials</a></li>
+                                <li><a href=""/static_pages/career/career.html"">Career</a></li>
+                                <li><a href=""/static_pages/contact-us.html"">Contact Us</a></li>
+                                <li><a href=""http://mail.thegreenbook.com/"">Web Mail</a></li>
+                            </ul>
+                        </div>
+                        <div class=""content"">
+                            <h3>
+                                Free Services</h3>
+                            <ul>
+                                <li><a href=""/static_pages/free-thegreenbook.html"">Free Directory</a></li>
+                                <li><a href=""/static_pages/features/internet/product-news.html"">Product News</a> <sup>
+                                    new</sup></li>
+                                <li><a href=""/enquiry/"">Trade Enquiry</a></li>
+                                <li><a href=""/quickupdate.aspx"">New Business Listing</a></li>
+                                <li><a href=""http://www.asiaexhibitions.com/"">Exhibition Calender</a></li>
+                                <li><a href=""/BestFood/Webpages/bestfood.asp"">Singapore Best Food</a></li>
+                            </ul>
+                        </div>
+                        <div class=""content"">
+                            <h3>
+                                Business Solution</h3>
+                            <ul>
+                                <li><a href=""/static_pages/our-product/our-products.html#tgbprint"">Print Advertisement</a></li>
+                                <li><a href=""#"">Platinum &amp; Gold Listing</a></li>
+                                <li><a href=""http://www.tgbglobal.com/ebiz-solution/web-development"">Website Development</a></li>
+                                <li><a href=""http://www.tgbglobal.com/domain-name"">Domain Name Registration</a></li>
+                                <li><a href=""http://www.tgbglobal.com/hosting"">Website Hosting</a></li>
+                                <li><a href=""#"">TGB-Plugin</a></li>
+                            </ul>
+                        </div>
+                        <div class=""content"">
+                            <h3>
+                                Advertiser Services</h3>
+                            <ul>
+                                <li><a href=""/admin/viewcompanymaster.aspx"">Company Information</a></li>
+                                <li><a href=""/admin/productdetails.aspx"">Product Showcase</a></li>
+                                <li><a href=""/admin/adminproductnews.aspx"">Product News</a><sup> new</sup></li>
+                                <li><a href=""/admin/PressRelease.aspx"">Press Release</a> <sup>new</sup></li>
+                                <li><a href=""/admin/CompanyMaster_PdfCatalog.aspx?mode=Edit"">PDF Catalogue</a> <sup>
+                                    new</sup></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=""footerWrap"">
+                        <ul>
+                            <li>
+                                <img src=""/_images/inhouse/our-services/tgb-plugin/tgb-logo-89x45.gif"" width=""89""
+                                    height=""45"" alt=""The Green Book Logo"" /></li>
+                            <li>
+                                <p>
+                                    41 Jalan Pemimpin #03-01, Kong Beng Industrial Building Singapore 577186<br />
+                                    Tel : (65) 6258 8255 (15 lines) Fax : (65) 6258 1808 (10 lines)
+                                    <br />
+                                    Email : <a href=""mailto:service@thegreenbook.com"">service@thegreenbook.com</a></p>
+                            </li>
+                            <li>
+                                <p>
+                                    Reproduction in whole or in part in any form or medium without expressed written
+                                    consent of Promedia Directories Pte Ltd is prohibited. All Right Reserved. Copyright©
+                                    1993-2011, The Green Book®
+                                    <br />
+                                    <a href=""/terms-conditions.html"">Terms & Conditions</a> | <a href=""/terms-conditions.html#termsOfUse"">
+    Terms of Use
+</a> | <a href=""/terms-conditions.html#privacyPolicy"">Privacy Policy</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Paste your page content above -->
+            <div id=""JSfooter"">
+                <a href=""http://www.thegreenbook.com"">www.thegreenbook.com</a>
+            </div>
+        </div>
+    </div>
+    </form>
+    <script type=""text/javascript"" src=""/_js/master-combine.js""></script>
+    <script language=""javascript"" type=""text/javascript"">
+
+        $(""#JSheader"").empty();
+        $(""#JSheader"").append(getNewHeader());
+        $(""#JSfooter"").empty();
+        $(""#JSfooter"").append(getNewFooter());
+        $(""#JSfooter"").hide();
+        jQuery(""#btnfeedback"").click(function (event) {
+            event.preventDefault();
+
+
+            var feedbackobj;
+
+            if (jQuery.trim(jQuery(""#txtFeedback"").val()) != """") {
+                feedbackobj = jQuery.trim(jQuery(""#txtFeedback"").val());
+
+                SaveFeedbackData(feedbackobj);
+            }
+            else {
+                alert(""Please enter your feedback!"");
+            }
+        });
+
+        function SaveFeedbackData(feedback) {
+            $.ajax({
+                type: ""POST"",
+                url: ""/CompanyProfile.aspx/savefeedback_404"",
+                data: ""{feedback: "" + JSON.stringify(feedback) + ""}"",
+                contentType: ""application/json"",
+                dataType: ""msjson"",
+                success: function (result) {
+
+
+                    if (result == 'true') {
+                        alert('Feedback submission successful, Thank You!');
+                    }
+                    else {
+                        alert('Unexpected error occured!, kindly report to greenbook cutomer service center - 6258 8255');
+                    }
+
+
+                }
+            });
+        }
+
+
+
+    </script>
+</body>
+</html>
+"
+email
+"﻿<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+    <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+    <title>404 Error - Page Not Found</title>
+    <link rel=""stylesheet"" type=""text/css"" href=""/_css/system.css"" />
+</head>
+<body>
+    <form id=""form1"" runat=""server"">
+    <div>
+        <div class=""global_wrapper"">
+            <div id=""JSheader"">
+            </div>
+            <!-- Paster your page content below -->
+            <div id=""mainbody"">
+                <div id=""error404"">
+                    <div class=""sectionWrapper"">
+                        <div class=""magnifyingGlass"">
+                            <img src=""/_images/system/maginify-glass.png"" alt= width=""349"" height=""434"" /></div>
+                        <div class=""clearFix"">
+                            <h2>
+                                Oops! PAGE NOT FOUND</h2>
+                            <h5>
+                                Sorry. The page that you are looking for :
+                            </h5>
+                            <ul>
+                                <li>May have moved or been re-named</li>
+                                <li>May have been deleted</li>
+                                <li>May never existed at all (perhaps it was all just a dream)</li>
+                            </ul>
+                        </div>
+                        <div class=""clearFix"">
+                            <div class=""left"">
+                                <h3>
+                                    Feedback to us</h3>
+                                <h5>
+                                    Please tell us what you are looking for :
+                                </h5>
+                                <p>
+                                    Thanks for your feedback and we appreciate your effort.</p>
+                            </div>
+                            <div class=""right"">
+                                <textarea id=""txtFeedback"" cols=""30"" rows=""3""></textarea>
+                                <input id=""btnfeedback"" name=""Submit"" type=""submit"" value=""Submit"" />
+                            </div>
+                        </div>
+                        <!--<div class=""clearFix last"">
+        <h4>Search from here</h4>
+        <h5>Try our specific search panel to get what you looking for : </h5>
+        <div class=""searchBox"">
+          <fieldset>
+            <input type=""text"" onFocus=""if(this.value=='Search &hellip;')this.value=''"" onBlur=""if(this.value=='')this.value='Search &hellip;'"" value=""Search &hellip;"" class=""autoComplete""/>
+            <button name="""" type=""submit""><img src=""/_images/icons-buttons/search-75x23.jpg"" width=""75"" height=""23"" alt=""Search Button"" /></button>
+          </fieldset>
+          <ul class=""sourceType"">
+            <li>
+              <input name=""searchOption"" type=""radio"" value=""productService"" checked=""checked"" />
+              <label>Product &amp; Service</label></li>
+            <li>
+              <input name=""searchOption"" type=""radio"" value=""brandName"" />
+              <label>Brand Name</label></li>
+            <li>
+              <input name=""searchOption"" type=""radio"" value=""companyName"" />
+             <label> Company Name</label></li>
+            <li>
+              <input name=""searchOption"" type=""radio"" value=""telFax"" />
+              <label>Telephone & Fax</label></li>
+          </ul>
+        </div>
+      </div>-->
+                    </div>
+                    <div class=""clearFix"">
+                        <div class=""content first"">
+                            <h3>
+                                Quick Links</h3>
+                            <ul>
+                                <li><a href=""/"">Home</a></li>
+                                <li><a href=""/static_pages/about-us.html"">About Us</a></li>
+                                <li><a href=""/static_pages/our-product/our-products.html"">Our Product</a> <sup>new</sup></li>
+                                <li><a href=""/static_pages/features/print/feature-printed-tgb-book.html"">Feature</a>
+                                    <sup>new</sup></li>
+                                <li><a href=""/static_pages/our-services/website-development.html"">Our Services</a> <sup>
+                                    new</sup></li>
+                                <li><a href=""/static_pages/our-portfolio/biz-starter-1.html"">Our Portfolio</a> <sup>
+                                    new</sup></li>
+                                <li><a href=""/static_pages/our-partners.html"">Our Partner</a></li>
+                                <li><a href=""/faq.aspx"">FAQs</a></li>
+                                <li><a href=""/static_pages/testimonial-letters.html"">Testimonials</a></li>
+                                <li><a href=""/static_pages/career/career.html"">Career</a></li>
+                                <li><a href=""/static_pages/contact-us.html"">Contact Us</a></li>
+                                <li><a href=""http://mail.thegreenbook.com/"">Web Mail</a></li>
+                            </ul>
+                        </div>
+                        <div class=""content"">
+                            <h3>
+                                Free Services</h3>
+                            <ul>
+                                <li><a href=""/static_pages/free-thegreenbook.html"">Free Directory</a></li>
+                                <li><a href=""/static_pages/features/internet/product-news.html"">Product News</a> <sup>
+                                    new</sup></li>
+                                <li><a href=""/enquiry/"">Trade Enquiry</a></li>
+                                <li><a href=""/quickupdate.aspx"">New Business Listing</a></li>
+                                <li><a href=""http://www.asiaexhibitions.com/"">Exhibition Calender</a></li>
+                                <li><a href=""/BestFood/Webpages/bestfood.asp"">Singapore Best Food</a></li>
+                            </ul>
+                        </div>
+                        <div class=""content"">
+                            <h3>
+                                Business Solution</h3>
+                            <ul>
+                                <li><a href=""/static_pages/our-product/our-products.html#tgbprint"">Print Advertisement</a></li>
+                                <li><a href=""#"">Platinum &amp; Gold Listing</a></li>
+                                <li><a href=""http://www.tgbglobal.com/ebiz-solution/web-development"">Website Development</a></li>
+                                <li><a href=""http://www.tgbglobal.com/domain-name"">Domain Name Registration</a></li>
+                                <li><a href=""http://www.tgbglobal.com/hosting"">Website Hosting</a></li>
+                                <li><a href=""#"">TGB-Plugin</a></li>
+                            </ul>
+                        </div>
+                        <div class=""content"">
+                            <h3>
+                                Advertiser Services</h3>
+                            <ul>
+                                <li><a href=""/admin/viewcompanymaster.aspx"">Company Information</a></li>
+                                <li><a href=""/admin/productdetails.aspx"">Product Showcase</a></li>
+                                <li><a href=""/admin/adminproductnews.aspx"">Product News</a><sup> new</sup></li>
+                                <li><a href=""/admin/PressRelease.aspx"">Press Release</a> <sup>new</sup></li>
+                                <li><a href=""/admin/CompanyMaster_PdfCatalog.aspx?mode=Edit"">PDF Catalogue</a> <sup>
+                                    new</sup></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=""footerWrap"">
+                        <ul>
+                            <li>
+                                <img src=""/_images/inhouse/our-services/tgb-plugin/tgb-logo-89x45.gif"" width=""89""
+                                    height=""45"" alt=""The Green Book Logo"" /></li>
+                            <li>
+                                <p>
+                                    41 Jalan Pemimpin #03-01, Kong Beng Industrial Building Singapore 577186<br />
+                                    Tel : (65) 6258 8255 (15 lines) Fax : (65) 6258 1808 (10 lines)
+                                    <br />
+                                    Email : <a href=""mailto:service@thegreenbook.com"">service@thegreenbook.com</a></p>
+                            </li>
+                            <li>
+                                <p>
+                                    Reproduction in whole or in part in any form or medium without expressed written
+                                    consent of Promedia Directories Pte Ltd is prohibited. All Right Reserved. Copyright©
+                                    1993-2011, The Green Book®
+                                    <br />
+                                    <a href=""/terms-conditions.html"">Terms & Conditions</a> | <a href=""/terms-conditions.html#termsOfUse"">
+    Terms of Use
+</a> | <a href=""/terms-conditions.html#privacyPolicy"">Privacy Policy</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Paste your page content above -->
+            <div id=""JSfooter"">
+                <a href=""http://www.thegreenbook.com"">www.thegreenbook.com</a>
+            </div>
+        </div>
+    </div>
+    </form>
+    <script type=""text/javascript"" src=""/_js/master-combine.js""></script>
+    <script language=""javascript"" type=""text/javascript"">
+
+        $(""#JSheader"").empty();
+        $(""#JSheader"").append(getNewHeader());
+        $(""#JSfooter"").empty();
+        $(""#JSfooter"").append(getNewFooter());
+        $(""#JSfooter"").hide();
+        jQuery(""#btnfeedback"").click(function (event) {
+            event.preventDefault();
+
+
+            var feedbackobj;
+
+            if (jQuery.trim(jQuery(""#txtFeedback"").val()) != """") {
+                feedbackobj = jQuery.trim(jQuery(""#txtFeedback"").val());
+
+                SaveFeedbackData(feedbackobj);
+            }
+            else {
+                alert(""Please enter your feedback!"");
+            }
+        });
+
+        function SaveFeedbackData(feedback) {
+            $.ajax({
+                type: ""POST"",
+                url: ""/CompanyProfile.aspx/savefeedback_404"",
+                data: ""{feedback: "" + JSON.stringify(feedback) + ""}"",
+                contentType: ""application/json"",
+                dataType: ""msjson"",
+                success: function (result) {
+
+
+                    if (result == 'true') {
+                        alert('Feedback submission successful, Thank You!');
+                    }
+                    else {
+                        alert('Unexpected error occured!, kindly report to greenbook cutomer service center - 6258 8255');
+                    }
+
+
+                }
+            });
+        }
+
+
+
+    </script>
+</body>
+</html>
+"
+email
+"﻿<!DOCTYPE html PUBLIC ""-//W3C//DTD XHTML 1.0 Transitional//EN"" ""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"">
+<html xmlns=""http://www.w3.org/1999/xhtml"">
+<head>
+    <meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"" />
+    <title>404 Error - Page Not Found</title>
+    <link rel=""stylesheet"" type=""text/css"" href=""/_css/system.css"" />
+</head>
+<body>
+    <form id=""form1"" runat=""server"">
+    <div>
+        <div class=""global_wrapper"">
+            <div id=""JSheader"">
+            </div>
+            <!-- Paster your page content below -->
+            <div id=""mainbody"">
+                <div id=""error404"">
+                    <div class=""sectionWrapper"">
+                        <div class=""magnifyingGlass"">
+                            <img src=""/_images/system/maginify-glass.png"" alt= width=""349"" height=""434"" /></div>
+                        <div class=""clearFix"">
+                            <h2>
+                                Oops! PAGE NOT FOUND</h2>
+                            <h5>
+                                Sorry. The page that you are looking for :
+                            </h5>
+                            <ul>
+                                <li>May have moved or been re-named</li>
+                                <li>May have been deleted</li>
+                                <li>May never existed at all (perhaps it was all just a dream)</li>
+                            </ul>
+                        </div>
+                        <div class=""clearFix"">
+                            <div class=""left"">
+                                <h3>
+                                    Feedback to us</h3>
+                                <h5>
+                                    Please tell us what you are looking for :
+                                </h5>
+                                <p>
+                                    Thanks for your feedback and we appreciate your effort.</p>
+                            </div>
+                            <div class=""right"">
+                                <textarea id=""txtFeedback"" cols=""30"" rows=""3""></textarea>
+                                <input id=""btnfeedback"" name=""Submit"" type=""submit"" value=""Submit"" />
+                            </div>
+                        </div>
+                        <!--<div class=""clearFix last"">
+        <h4>Search from here</h4>
+        <h5>Try our specific search panel to get what you looking for : </h5>
+        <div class=""searchBox"">
+          <fieldset>
+            <input type=""text"" onFocus=""if(this.value=='Search &hellip;')this.value=''"" onBlur=""if(this.value=='')this.value='Search &hellip;'"" value=""Search &hellip;"" class=""autoComplete""/>
+            <button name="""" type=""submit""><img src=""/_images/icons-buttons/search-75x23.jpg"" width=""75"" height=""23"" alt=""Search Button"" /></button>
+          </fieldset>
+          <ul class=""sourceType"">
+            <li>
+              <input name=""searchOption"" type=""radio"" value=""productService"" checked=""checked"" />
+              <label>Product &amp; Service</label></li>
+            <li>
+              <input name=""searchOption"" type=""radio"" value=""brandName"" />
+              <label>Brand Name</label></li>
+            <li>
+              <input name=""searchOption"" type=""radio"" value=""companyName"" />
+             <label> Company Name</label></li>
+            <li>
+              <input name=""searchOption"" type=""radio"" value=""telFax"" />
+              <label>Telephone & Fax</label></li>
+          </ul>
+        </div>
+      </div>-->
+                    </div>
+                    <div class=""clearFix"">
+                        <div class=""content first"">
+                            <h3>
+                                Quick Links</h3>
+                            <ul>
+                                <li><a href=""/"">Home</a></li>
+                                <li><a href=""/static_pages/about-us.html"">About Us</a></li>
+                                <li><a href=""/static_pages/our-product/our-products.html"">Our Product</a> <sup>new</sup></li>
+                                <li><a href=""/static_pages/features/print/feature-printed-tgb-book.html"">Feature</a>
+                                    <sup>new</sup></li>
+                                <li><a href=""/static_pages/our-services/website-development.html"">Our Services</a> <sup>
+                                    new</sup></li>
+                                <li><a href=""/static_pages/our-portfolio/biz-starter-1.html"">Our Portfolio</a> <sup>
+                                    new</sup></li>
+                                <li><a href=""/static_pages/our-partners.html"">Our Partner</a></li>
+                                <li><a href=""/faq.aspx"">FAQs</a></li>
+                                <li><a href=""/static_pages/testimonial-letters.html"">Testimonials</a></li>
+                                <li><a href=""/static_pages/career/career.html"">Career</a></li>
+                                <li><a href=""/static_pages/contact-us.html"">Contact Us</a></li>
+                                <li><a href=""http://mail.thegreenbook.com/"">Web Mail</a></li>
+                            </ul>
+                        </div>
+                        <div class=""content"">
+                            <h3>
+                                Free Services</h3>
+                            <ul>
+                                <li><a href=""/static_pages/free-thegreenbook.html"">Free Directory</a></li>
+                                <li><a href=""/static_pages/features/internet/product-news.html"">Product News</a> <sup>
+                                    new</sup></li>
+                                <li><a href=""/enquiry/"">Trade Enquiry</a></li>
+                                <li><a href=""/quickupdate.aspx"">New Business Listing</a></li>
+                                <li><a href=""http://www.asiaexhibitions.com/"">Exhibition Calender</a></li>
+                                <li><a href=""/BestFood/Webpages/bestfood.asp"">Singapore Best Food</a></li>
+                            </ul>
+                        </div>
+                        <div class=""content"">
+                            <h3>
+                                Business Solution</h3>
+                            <ul>
+                                <li><a href=""/static_pages/our-product/our-products.html#tgbprint"">Print Advertisement</a></li>
+                                <li><a href=""#"">Platinum &amp; Gold Listing</a></li>
+                                <li><a href=""http://www.tgbglobal.com/ebiz-solution/web-development"">Website Development</a></li>
+                                <li><a href=""http://www.tgbglobal.com/domain-name"">Domain Name Registration</a></li>
+                                <li><a href=""http://www.tgbglobal.com/hosting"">Website Hosting</a></li>
+                                <li><a href=""#"">TGB-Plugin</a></li>
+                            </ul>
+                        </div>
+                        <div class=""content"">
+                            <h3>
+                                Advertiser Services</h3>
+                            <ul>
+                                <li><a href=""/admin/viewcompanymaster.aspx"">Company Information</a></li>
+                                <li><a href=""/admin/productdetails.aspx"">Product Showcase</a></li>
+                                <li><a href=""/admin/adminproductnews.aspx"">Product News</a><sup> new</sup></li>
+                                <li><a href=""/admin/PressRelease.aspx"">Press Release</a> <sup>new</sup></li>
+                                <li><a href=""/admin/CompanyMaster_PdfCatalog.aspx?mode=Edit"">PDF Catalogue</a> <sup>
+                                    new</sup></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=""footerWrap"">
+                        <ul>
+                            <li>
+                                <img src=""/_images/inhouse/our-services/tgb-plugin/tgb-logo-89x45.gif"" width=""89""
+                                    height=""45"" alt=""The Green Book Logo"" /></li>
+                            <li>
+                                <p>
+                                    41 Jalan Pemimpin #03-01, Kong Beng Industrial Building Singapore 577186<br />
+                                    Tel : (65) 6258 8255 (15 lines) Fax : (65) 6258 1808 (10 lines)
+                                    <br />
+                                    Email : <a href=""mailto:service@thegreenbook.com"">service@thegreenbook.com</a></p>
+                            </li>
+                            <li>
+                                <p>
+                                    Reproduction in whole or in part in any form or medium without expressed written
+                                    consent of Promedia Directories Pte Ltd is prohibited. All Right Reserved. Copyright©
+                                    1993-2011, The Green Book®
+                                    <br />
+                                    <a href=""/terms-conditions.html"">Terms & Conditions</a> | <a href=""/terms-conditions.html#termsOfUse"">
+    Terms of Use
+</a> | <a href=""/terms-conditions.html#privacyPolicy"">Privacy Policy</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Paste your page content above -->
+            <div id=""JSfooter"">
+                <a href=""http://www.thegreenbook.com"">www.thegreenbook.com</a>
+            </div>
+        </div>
+    </div>
+    </form>
+    <script type=""text/javascript"" src=""/_js/master-combine.js""></script>
+    <script language=""javascript"" type=""text/javascript"">
+
+        $(""#JSheader"").empty();
+        $(""#JSheader"").append(getNewHeader());
+        $(""#JSfooter"").empty();
+        $(""#JSfooter"").append(getNewFooter());
+        $(""#JSfooter"").hide();
+        jQuery(""#btnfeedback"").click(function (event) {
+            event.preventDefault();
+
+
+            var feedbackobj;
+
+            if (jQuery.trim(jQuery(""#txtFeedback"").val()) != """") {
+                feedbackobj = jQuery.trim(jQuery(""#txtFeedback"").val());
+
+                SaveFeedbackData(feedbackobj);
+            }
+            else {
+                alert(""Please enter your feedback!"");
+            }
+        });
+
+        function SaveFeedbackData(feedback) {
+            $.ajax({
+                type: ""POST"",
+                url: ""/CompanyProfile.aspx/savefeedback_404"",
+                data: ""{feedback: "" + JSON.stringify(feedback) + ""}"",
+                contentType: ""application/json"",
+                dataType: ""msjson"",
+                success: function (result) {
+
+
+                    if (result == 'true') {
+                        alert('Feedback submission successful, Thank You!');
+                    }
+                    else {
+                        alert('Unexpected error occured!, kindly report to greenbook cutomer service center - 6258 8255');
+                    }
+
+
+                }
+            });
+        }
+
+
+
+    </script>
+</body>
+</html>
+"
+email
+"""dhssales@discosin.com.sg"""
+email
+"""dhssales@discosin.com.sg"""
+email
+"""dhssales@discosin.com.sg"""
